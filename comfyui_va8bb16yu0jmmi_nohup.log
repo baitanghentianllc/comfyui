@@ -1,0 +1,1310 @@
+DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+[START] Security scan
+[DONE] Security scan
+## ComfyUI-Manager: installing dependencies done.
+** ComfyUI startup time: 2025-07-06 17:58:59.832
+** Platform: Linux
+** Python version: 3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
+** Python executable: /opt/venv/bin/python3
+** ComfyUI Path: /workspace/ComfyUI
+** ComfyUI Base Folder Path: /workspace/ComfyUI
+** User directory: /workspace/ComfyUI/user
+** ComfyUI-Manager config path: /workspace/ComfyUI/user/default/ComfyUI-Manager/config.ini
+** Log path: /workspace/ComfyUI/user/comfyui.log
+DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+
+Prestartup times for custom nodes:
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/rgthree-comfy
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Easy-Use
+   2.6 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager
+
+Checkpoint files will always be loaded safely.
+Total VRAM 45484 MB, total RAM 773727 MB
+pytorch version: 2.8.0.dev20250531+cu128
+Set vram state to: NORMAL_VRAM
+Device: cuda:0 NVIDIA L40 : cudaMallocAsync
+Using sage attention
+Python version: 3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
+ComfyUI version: 0.3.39
+ComfyUI frontend version: 1.20.7
+[Prompt Server] web root: /opt/venv/lib/python3.12/site-packages/comfyui_frontend_package/static
+[36;20m[/workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux] | INFO -> Using ckpts path: /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts[0m
+[36;20m[/workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[36;20m[/workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+generated new fontManager
+DWPose: Onnxruntime with acceleration providers detected
+Set up system temp directory: /tmp/latentsync_641dc1b7
+### Loading: ComfyUI-Impact-Pack (V8.15.1)
+[WARN] ComfyUI-Impact-Pack: custom_wildcards path not found: /ComfyUI/custom_nodes/ComfyUI-Impact-Pack/custom_wildcards. Using default path.
+[Impact Pack] Wildcards loading done.
+[34m[ComfyUI-Easy-Use] server: [0mv1.3.1 [92mLoaded[0m
+[34m[ComfyUI-Easy-Use] web root: [0m/workspace/ComfyUI/custom_nodes/ComfyUI-Easy-Use/web_version/v2 [92mLoaded[0m
+[34mWAS Node Suite: [0mCreated default conf file at `/workspace/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json`.[0m
+[34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/workspace/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m220[0m [32mnodes successfully.[0m
+
+	[3m[93m"The harder I work, the luckier I get."[0m[3m - Samuel Goldwyn[0m
+
+[34m[ComfyUI-RMBG][0m v[93m2.3.0[0m | [93m20 nodes[0m [92mLoaded[0m
+
+[92m[rgthree-comfy] Loaded 47 extraordinary nodes. 🎉[0m
+
+### Loading: ComfyUI-Manager (V3.32.5)
+[ComfyUI-Manager] network_mode: public
+### ComfyUI Version: v0.3.39-7-g97f23b81 | Released on '2025-05-30'
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+/opt/venv/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/workspace/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes/nodes/nodes_list.py:383: SyntaxWarning: invalid escape sequence '\W'
+  "optional": {"folder_path": ("STRING", {"default": "C:\Windows\Fonts", "multiline": False}),
+/workspace/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes/nodes/nodes_list.py:393: SyntaxWarning: invalid escape sequence '\W'
+  def make_list(self, source_folder, start_index, max_rows, folder_path="C:\Windows\Fonts"):
+/workspace/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes/nodes/nodes_xygrid.py:256: SyntaxWarning: invalid escape sequence '\R'
+  resolved_font_path = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), "fonts\Roboto-Regular.ttf")
+------------------------------------------
+[34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+------------------------------------------
+** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+------------------------------------------
+/workspace/ComfyUI/custom_nodes/ComfyUI_essentials/conditioning.py:231: SyntaxWarning: invalid escape sequence '\.'
+  """
+[94mtheUpsiders Logic Nodes: [92mLoaded[0m
+Failed to find comfy root automatically, please copy the folder /workspace/ComfyUI/custom_nodes/ComfyLiterals/web manually in the web/extensions folder of ComfyUI
+
+Import times for custom nodes:
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/websocket_image_save.py
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/cg-use-everywhere
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Logic
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Detail-Daemon
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/cg-image-picker
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/comfy-plasma
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Florence2
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/masquerade-nodes-comfyui
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyLiterals
+   0.1 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_JPS-Nodes
+   0.1 seconds: /workspace/ComfyUI/custom_nodes/mikey_nodes
+   0.1 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-LatentSyncWrapper
+   0.1 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-TeaCache
+   0.1 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-RMBG
+   0.1 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_UltimateSDUpscale
+   0.2 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_essentials
+   0.2 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Frame-Interpolation
+   0.2 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-KJNodes
+   0.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+   0.4 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager
+   0.6 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+   0.6 seconds: /workspace/ComfyUI/custom_nodes/rgthree-comfy
+   0.6 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes
+   1.0 seconds: /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux
+   1.3 seconds: /workspace/ComfyUI/custom_nodes/was-node-suite-comfyui
+   1.6 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_LayerStyle
+   1.7 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-WanVideoWrapper
+   1.7 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_LayerStyle_Advance
+   2.2 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Easy-Use
+
+Starting server
+
+To see the GUI go to: http://0.0.0.0:8188
+To see the GUI go to: http://[::]:8188
+FETCH ComfyRegistry Data: 5/91
+FETCH ComfyRegistry Data: 10/91
+FETCH ComfyRegistry Data: 15/91
+FETCH ComfyRegistry Data: 20/91
+FETCH ComfyRegistry Data: 25/91
+FETCH ComfyRegistry Data: 30/91
+FETCH ComfyRegistry Data: 35/91
+FETCH ComfyRegistry Data: 40/91
+FETCH ComfyRegistry Data: 45/91
+FETCH ComfyRegistry Data: 50/91
+FETCH ComfyRegistry Data: 55/91
+[ComfyUI-Manager] Installation failed:
+Install path already exists: /workspace/ComfyUI/custom_nodes/ComfyUI-WanVideoWrapper
+  0%|          | 0.00/132M [00:00<?, ?B/s]  0%|          | 65.5k/132M [00:00<03:47, 580kB/s]  0%|          | 131k/132M [00:00<03:49, 574kB/s]   0%|          | 262k/132M [00:00<02:30, 874kB/s]  0%|          | 557k/132M [00:00<01:20, 1.62MB/s]  1%|          | 1.34M/132M [00:00<00:34, 3.76MB/s]  2%|▏         | 2.79M/132M [00:00<00:17, 7.24MB/s]  5%|▍         | 6.32M/132M [00:00<00:07, 16.2MB/s]  8%|▊         | 10.8M/132M [00:00<00:04, 25.0MB/s] 11%|█         | 14.7M/132M [00:00<00:04, 26.8MB/s] 14%|█▍        | 18.9M/132M [00:01<00:03, 30.8MB/s] 18%|█▊        | 23.3M/132M [00:01<00:03, 34.5MB/s] 21%|██        | 27.8M/132M [00:01<00:02, 37.3MB/s] 24%|██▍       | 32.1M/132M [00:01<00:02, 38.9MB/s] 28%|██▊       | 36.7M/132M [00:01<00:02, 40.9MB/s] 31%|███       | 41.1M/132M [00:01<00:02, 41.9MB/s] 35%|███▍      | 45.6M/132M [00:01<00:02, 42.5MB/s] 38%|███▊      | 50.0M/132M [00:01<00:01, 42.9MB/s] 41%|████▏     | 54.4M/132M [00:01<00:01, 43.3MB/s] 45%|████▍     | 58.9M/132M [00:01<00:01, 43.6MB/s] 48%|████▊     | 63.3M/132M [00:02<00:01, 43.8MB/s]FETCH ComfyRegistry Data: 60/91
+ 51%|█████▏    | 67.8M/132M [00:02<00:01, 43.9MB/s] 55%|█████▍    | 72.3M/132M [00:02<00:01, 44.1MB/s] 58%|█████▊    | 76.7M/132M [00:02<00:01, 44.0MB/s] 62%|██████▏   | 81.1M/132M [00:02<00:01, 44.2MB/s] 65%|██████▍   | 85.6M/132M [00:02<00:01, 44.2MB/s] 68%|██████▊   | 90.0M/132M [00:02<00:00, 44.1MB/s] 72%|███████▏  | 94.5M/132M [00:02<00:00, 44.2MB/s] 75%|███████▌  | 98.9M/132M [00:02<00:00, 44.2MB/s] 78%|███████▊  | 103M/132M [00:02<00:00, 44.1MB/s]  82%|████████▏ | 108M/132M [00:03<00:00, 44.1MB/s] 85%|████████▌ | 112M/132M [00:03<00:00, 43.9MB/s] 88%|████████▊ | 117M/132M [00:03<00:00, 44.0MB/s] 92%|█████████▏| 121M/132M [00:03<00:00, 44.0MB/s] 95%|█████████▌| 126M/132M [00:03<00:00, 44.0MB/s] 99%|█████████▊| 130M/132M [00:03<00:00, 44.0MB/s]100%|██████████| 132M/132M [00:03<00:00, 36.3MB/s]
+FETCH ComfyRegistry Data: 65/91
+FETCH ComfyRegistry Data: 70/91
+Extracted zip file to /workspace/ComfyUI/custom_nodes/bjornulf_custom_nodes
+Install: pip packages
+DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'ollama']
+[!]  Collecting ollama
+   Downloading ollama-0.5.1-py3-none-any.whl.metadata (4.3 kB)
+             Downloading ollama-0.5.1-py3-none-any.whl (13 kB)
+FETCH ComfyRegistry Data: 75/91
+ Installing collected packages: ollama
+ Successfully installed ollama-0.5.1
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'pydub']
+[!]  Collecting pydub
+   Downloading pydub-0.25.1-py2.py3-none-any.whl.metadata (1.4 kB)
+ Downloading pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+ Installing collected packages: pydub
+ Successfully installed pydub-0.25.1
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'opencv-python']
+[!]   FETCH ComfyRegistry Data: 80/91
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'ffmpeg-python']
+[!]   
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'civitai-py']
+[!]  Collecting civitai-py
+   Downloading civitai_py-0.1.10-py3-none-any.whl.metadata (15 kB)
+              Downloading civitai_py-0.1.10-py3-none-any.whl (61 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.7/61.7 kB 986.6 kB/s eta 0:00:00
+FETCH ComfyRegistry Data: 85/91
+ Installing collected packages: civitai-py
+ Successfully installed civitai-py-0.1.10
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'fal_client']
+[!]  Collecting fal_client
+   Downloading fal_client-0.7.0-py3-none-any.whl.metadata (3.5 kB)
+  Collecting httpx-sse<0.5,>=0.4.0 (from fal_client)
+   Downloading httpx_sse-0.4.1-py3-none-any.whl.metadata (9.4 kB)
+        Downloading fal_client-0.7.0-py3-none-any.whl (10 kB)
+ Downloading httpx_sse-0.4.1-py3-none-any.whl (8.1 kB)
+ Installing collected packages: httpx-sse, fal_client
+ Successfully installed fal_client-0.7.0 httpx-sse-0.4.1
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'sounddevice']
+[!]    FETCH ComfyRegistry Data: 90/91
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'langdetect']
+[!]  Collecting langdetect
+   Downloading langdetect-1.0.9.tar.gz (981 kB)
+FETCH ComfyRegistry Data [DONE]
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 981.5/981.5 kB 5.2 MB/s eta 0:00:00
+   Preparing metadata (setup.py): started
+[ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+   Preparing metadata (setup.py): finished with status 'done'
+  Building wheels for collected packages: langdetect
+   Building wheel for langdetect (setup.py): started
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[ComfyUI-Manager] All startup tasks have been completed.
+   Building wheel for langdetect (setup.py): finished with status 'done'
+   Created wheel for langdetect: filename=langdetect-1.0.9-py3-none-any.whl size=993221 sha256=910cba580ac1c68d9239786b2fad0dac2ca3e2630b2c5f0d8eab8d25d1f32e92
+   Stored in directory: /root/.cache/pip/wheels/c1/67/88/e844b5b022812e15a52e4eaa38a1e709e99f06f6639d7e3ba7
+ Successfully built langdetect
+ Installing collected packages: langdetect
+ Successfully installed langdetect-1.0.9
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'spacy']
+[!]  Collecting spacy
+   Downloading spacy-3.8.7-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (27 kB)
+ Collecting spacy-legacy<3.1.0,>=3.0.11 (from spacy)
+   Downloading spacy_legacy-3.0.12-py2.py3-none-any.whl.metadata (2.8 kB)
+ Collecting spacy-loggers<2.0.0,>=1.0.0 (from spacy)
+   Downloading spacy_loggers-1.0.5-py3-none-any.whl.metadata (23 kB)
+ Collecting murmurhash<1.1.0,>=0.28.0 (from spacy)
+   Downloading murmurhash-1.0.13-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.2 kB)
+ Collecting cymem<2.1.0,>=2.0.2 (from spacy)
+   Downloading cymem-2.0.11-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (8.5 kB)
+ Collecting preshed<3.1.0,>=3.0.2 (from spacy)
+   Downloading preshed-3.0.10-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.4 kB)
+ Collecting thinc<8.4.0,>=8.3.4 (from spacy)
+   Downloading thinc-8.3.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (15 kB)
+ Collecting wasabi<1.2.0,>=0.9.1 (from spacy)
+   Downloading wasabi-1.1.3-py3-none-any.whl.metadata (28 kB)
+ Collecting srsly<3.0.0,>=2.4.3 (from spacy)
+   Downloading srsly-2.5.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (19 kB)
+ Collecting catalogue<2.1.0,>=2.0.6 (from spacy)
+   Downloading catalogue-2.0.10-py3-none-any.whl.metadata (14 kB)
+ Collecting weasel<0.5.0,>=0.1.0 (from spacy)
+   Downloading weasel-0.4.1-py3-none-any.whl.metadata (4.6 kB)
+         Collecting langcodes<4.0.0,>=3.2.0 (from spacy)
+   Downloading langcodes-3.5.0-py3-none-any.whl.metadata (29 kB)
+ Collecting language-data>=1.2 (from langcodes<4.0.0,>=3.2.0->spacy)
+   Downloading language_data-1.3.0-py3-none-any.whl.metadata (4.3 kB)
+         Collecting blis<1.4.0,>=1.3.0 (from thinc<8.4.0,>=8.3.4->spacy)
+   Downloading blis-1.3.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.4 kB)
+ Collecting confection<1.0.0,>=0.0.1 (from thinc<8.4.0,>=8.3.4->spacy)
+   Downloading confection-0.1.5-py3-none-any.whl.metadata (19 kB)
+ Collecting numpy>=1.19.0 (from spacy)
+   Downloading numpy-2.3.1-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (62 kB)
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.1/62.1 kB 2.2 MB/s eta 0:00:00
+    Collecting cloudpathlib<1.0.0,>=0.7.0 (from weasel<0.5.0,>=0.1.0->spacy)
+   Downloading cloudpathlib-0.21.1-py3-none-any.whl.metadata (14 kB)
+ Collecting smart-open<8.0.0,>=5.2.1 (from weasel<0.5.0,>=0.1.0->spacy)
+   Downloading smart_open-7.3.0.post1-py3-none-any.whl.metadata (24 kB)
+  Collecting marisa-trie>=1.1.0 (from language-data>=1.2->langcodes<4.0.0,>=3.2.0->spacy)
+   Downloading marisa_trie-1.2.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.0 kB)
+     Downloading spacy-3.8.7-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (33.9 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 33.9/33.9 MB 37.3 MB/s eta 0:00:00
+ Downloading catalogue-2.0.10-py3-none-any.whl (17 kB)
+ Downloading cymem-2.0.11-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (227 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 228.0/228.0 kB 14.5 MB/s eta 0:00:00
+ Downloading langcodes-3.5.0-py3-none-any.whl (182 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 183.0/183.0 kB 11.6 MB/s eta 0:00:00
+ Downloading murmurhash-1.0.13-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (128 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.9/128.9 kB 8.3 MB/s eta 0:00:00
+ Downloading preshed-3.0.10-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (869 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 869.3/869.3 kB 3.6 MB/s eta 0:00:00
+ Downloading spacy_legacy-3.0.12-py2.py3-none-any.whl (29 kB)
+ Downloading spacy_loggers-1.0.5-py3-none-any.whl (22 kB)
+ Downloading srsly-2.5.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 32.3 MB/s eta 0:00:00
+ Downloading thinc-8.3.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.3 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 41.2 MB/s eta 0:00:00
+ Downloading numpy-2.3.1-cp312-cp312-manylinux_2_28_x86_64.whl (16.6 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.6/16.6 MB 31.8 MB/s eta 0:00:00
+ Downloading wasabi-1.1.3-py3-none-any.whl (27 kB)
+ Downloading weasel-0.4.1-py3-none-any.whl (50 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.3/50.3 kB 1.4 MB/s eta 0:00:00
+ Downloading blis-1.3.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.6 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 36.0 MB/s eta 0:00:00
+ Downloading cloudpathlib-0.21.1-py3-none-any.whl (52 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 52.8/52.8 kB 1.0 MB/s eta 0:00:00
+ Downloading confection-0.1.5-py3-none-any.whl (35 kB)
+ Downloading language_data-1.3.0-py3-none-any.whl (5.4 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 26.0 MB/s eta 0:00:00
+ Downloading smart_open-7.3.0.post1-py3-none-any.whl (61 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.9/61.9 kB 1.7 MB/s eta 0:00:00
+ Downloading marisa_trie-1.2.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.4 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 19.3 MB/s eta 0:00:00
+ Installing collected packages: cymem, wasabi, spacy-loggers, spacy-legacy, smart-open, numpy, murmurhash, marisa-trie, cloudpathlib, catalogue, srsly, preshed, language-data, blis, langcodes, confection, weasel, thinc, spacy
+   Attempting uninstall: numpy
+     Found existing installation: numpy 1.26.4
+     Uninstalling numpy-1.26.4:
+       Successfully uninstalled numpy-1.26.4
+[!]  ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+Successfully installed blis-1.3.0 catalogue-2.0.10 cloudpathlib-0.21.1 confection-0.1.5 cymem-2.0.11 langcodes-3.5.0 language-data-1.3.0 marisa-trie-1.2.1 murmurhash-1.0.13 numpy-2.3.1 preshed-3.0.10 smart-open-7.3.0.post1 spacy-3.8.7 spacy-legacy-3.0.12 spacy-loggers-1.0.5 srsly-2.5.1 thinc-8.3.6 wasabi-1.1.3 weasel-0.4.1
+[!] cupy-cuda12x 12.3.0 requires numpy<1.29,>=1.20, but you have numpy 2.3.1 which is incompatible.
+[!] mediapipe 0.10.21 requires numpy<2, but you have numpy 2.3.1 which is incompatible.
+[!] numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.3.1 which is incompatible.
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'textblob']
+[!]  Collecting textblob
+   Downloading textblob-0.19.0-py3-none-any.whl.metadata (4.4 kB)
+ Collecting nltk>=3.9 (from textblob)
+   Downloading nltk-3.9.1-py3-none-any.whl.metadata (2.9 kB)
+     Downloading textblob-0.19.0-py3-none-any.whl (624 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 624.3/624.3 kB 3.7 MB/s eta 0:00:00
+ Downloading nltk-3.9.1-py3-none-any.whl (1.5 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 23.5 MB/s eta 0:00:00
+ Installing collected packages: nltk, textblob
+ Successfully installed nltk-3.9.1 textblob-0.19.0
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'dill']
+[!]  
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'openai']
+[!]                 DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+thinc 8.3.6 requires numpy<3.0.0,>=2.0.0, but you have numpy 1.26.4 which is incompatible.
+[ComfyUI-Manager] 'numpy' dependency were fixed
+
+[ComfyUI-Manager] Queued works are completed.
+{'install': 2}
+
+After restarting ComfyUI, please refresh the browser.
+  0%|          | 0.00/163k [00:00<?, ?B/s] 60%|██████    | 98.3k/163k [00:00<00:00, 942kB/s]100%|██████████| 163k/163k [00:00<00:00, 1.25MB/s]
+Extracted zip file to /workspace/ComfyUI/custom_nodes/comfyui-custom-scripts
+
+[ComfyUI-Manager] Queued works are completed.
+{'install': 1}
+
+After restarting ComfyUI, please refresh the browser.
+  0%|          | 0.00/36.4k [00:00<?, ?B/s]100%|██████████| 36.4k/36.4k [00:00<00:00, 705kB/s]
+Extracted zip file to /workspace/ComfyUI/custom_nodes/comfyui-florence2
+Install: pip packages
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'transformers>=4.39.0,!=4.50.*']
+[!]                   
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'matplotlib']
+[!]            
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'timm']
+[!]                                         
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'pillow>=10.2.0']
+[!]  
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'peft']
+[!]                                            
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'accelerate>=0.26.0']
+[!]                                        DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+
+[ComfyUI-Manager] Queued works are completed.
+{'install': 1}
+
+After restarting ComfyUI, please refresh the browser.
+  0%|          | 0.00/2.55M [00:00<?, ?B/s]  4%|▍         | 98.3k/2.55M [00:00<00:02, 943kB/s] 24%|██▍       | 623k/2.55M [00:00<00:00, 3.41MB/s]100%|██████████| 2.55M/2.55M [00:00<00:00, 8.99MB/s]
+Extracted zip file to /workspace/ComfyUI/custom_nodes/comfyui-impact-pack
+Install: pip packages
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'segment-anything']
+[!]  
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'scikit-image']
+[!]          
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'piexif']
+[!]  [ComfyUI-Manager] skip black listed pip installation: 'transformers'
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'opencv-python-headless']
+[!]   
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'scipy>=1.11.4']
+[!]   [ComfyUI-Manager] 'numpy' is remapped to 'numpy<2'
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'numpy<2']
+[!]  DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+Install: install script
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', 'install.py']
+[!] 
+[!] WARN: The `COMFYUI_MODEL_PATH` environment variable is not set. Assuming `/workspace/ComfyUI/models` as the ComfyUI path.
+ ### ComfyUI-Impact-Pack: Check dependencies
+ ### ComfyUI-Impact-Pack: Check basic models
+
+[ComfyUI-Manager] Queued works are completed.
+{'install': 1}
+
+After restarting ComfyUI, please refresh the browser.
+  0%|          | 0.00/24.7M [00:00<?, ?B/s]  0%|          | 65.5k/24.7M [00:00<00:42, 584kB/s]  1%|          | 131k/24.7M [00:00<00:42, 578kB/s]   1%|          | 262k/24.7M [00:00<00:27, 884kB/s]  3%|▎         | 623k/24.7M [00:00<00:12, 1.87MB/s]  6%|▌         | 1.47M/24.7M [00:00<00:05, 4.14MB/s] 15%|█▍        | 3.60M/24.7M [00:00<00:02, 9.76MB/s] 31%|███       | 7.70M/24.7M [00:00<00:00, 19.7MB/s] 49%|████▉     | 12.1M/24.7M [00:00<00:00, 27.2MB/s] 66%|██████▌   | 16.4M/24.7M [00:00<00:00, 31.9MB/s] 84%|████████▎ | 20.7M/24.7M [00:01<00:00, 35.3MB/s]100%|██████████| 24.7M/24.7M [00:01<00:00, 21.8MB/s]
+Extracted zip file to /workspace/ComfyUI/custom_nodes/comfyui-kjnodes
+Install: pip packages
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'pillow>=10.3.0']
+[!]  
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'scipy']
+[!]   
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'color-matcher']
+[!]                
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'huggingface_hub']
+[!]              
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'mss']
+[!]  DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+
+[ComfyUI-Manager] Queued works are completed.
+{'install': 1}
+
+After restarting ComfyUI, please refresh the browser.
+  0%|          | 0.00/38.6k [00:00<?, ?B/s]100%|██████████| 38.6k/38.6k [00:00<00:00, 711kB/s]
+Extracted zip file to /workspace/ComfyUI/custom_nodes/comfyui-logicutils
+Install: install script
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', 'install.py']
+ Installing dghs-imgutils[gpu]...
+[!]  Collecting dghs-imgutils[gpu]
+   Downloading dghs_imgutils-0.18.0-py3-none-any.whl.metadata (19 kB)
+ Collecting hbutils>=0.9.0 (from dghs-imgutils[gpu])
+   Downloading hbutils-0.11.0-py3-none-any.whl.metadata (8.3 kB)
+         Collecting emoji<2.12,>=2.5.0 (from dghs-imgutils[gpu])
+   Downloading emoji-2.11.1-py2.py3-none-any.whl.metadata (5.3 kB)
+ Collecting pilmoji>=1.3.0 (from dghs-imgutils[gpu])
+   Downloading pilmoji-2.0.4-py3-none-any.whl.metadata (3.3 kB)
+  Collecting pyclipper (from dghs-imgutils[gpu])
+   Downloading pyclipper-1.3.0.post6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.0 kB)
+ Collecting deprecation>=2.0.0 (from dghs-imgutils[gpu])
+   Downloading deprecation-2.1.0-py2.py3-none-any.whl.metadata (4.6 kB)
+ Collecting hfutils>=0.9.0 (from dghs-imgutils[gpu])
+   Downloading hfutils-0.11.1-py3-none-any.whl.metadata (11 kB)
+  Collecting bchlib!=2.0.0,!=2.0.1,!=2.1.0,!=2.1.1,!=2.1.2,>=1.0.0 (from dghs-imgutils[gpu])
+   Downloading bchlib-2.1.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.4 kB)
+  Collecting pyrfc6266>=1 (from dghs-imgutils[gpu])
+   Downloading pyrfc6266-1.0.2-py3-none-any.whl.metadata (1.5 kB)
+ Collecting urlobject>=2 (from dghs-imgutils[gpu])
+   Downloading URLObject-2.4.3.tar.gz (27 kB)
+   Preparing metadata (setup.py): started
+   Preparing metadata (setup.py): finished with status 'done'
+     Collecting pytimeparse>=1.1.8 (from hbutils>=0.9.0->dghs-imgutils[gpu])
+   Downloading pytimeparse-1.1.8-py2.py3-none-any.whl.metadata (3.4 kB)
+ Collecting bitmath>=1.3.3.1 (from hbutils>=0.9.0->dghs-imgutils[gpu])
+   Downloading bitmath-1.3.3.1.tar.gz (88 kB)
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 88.5/88.5 kB 1.5 MB/s eta 0:00:00
+   Preparing metadata (setup.py): started
+   Preparing metadata (setup.py): finished with status 'done'
+ Collecting chardet<5,>=3.0.4 (from hbutils>=0.9.0->dghs-imgutils[gpu])
+   Downloading chardet-4.0.0-py2.py3-none-any.whl.metadata (3.5 kB)
+   Collecting tzlocal (from hfutils>=0.9.0->dghs-imgutils[gpu])
+   Downloading tzlocal-5.3.1-py3-none-any.whl.metadata (7.6 kB)
+ Collecting natsort (from hfutils>=0.9.0->dghs-imgutils[gpu])
+   Downloading natsort-8.4.0-py3-none-any.whl.metadata (21 kB)
+ Collecting random-user-agent (from hfutils>=0.9.0->dghs-imgutils[gpu])
+   Downloading random_user_agent-1.0.1-py3-none-any.whl.metadata (2.7 kB)
+      Collecting pyparsing~=3.0.7 (from pyrfc6266>=1->dghs-imgutils[gpu])
+   Downloading pyparsing-3.0.9-py3-none-any.whl.metadata (4.2 kB)
+                 Downloading bchlib-2.1.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (67 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.0/68.0 kB 3.2 MB/s eta 0:00:00
+ Downloading deprecation-2.1.0-py2.py3-none-any.whl (11 kB)
+ Downloading emoji-2.11.1-py2.py3-none-any.whl (433 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 433.8/433.8 kB 6.2 MB/s eta 0:00:00
+ Downloading hbutils-0.11.0-py3-none-any.whl (133 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.5/133.5 kB 11.2 MB/s eta 0:00:00
+ Downloading hfutils-0.11.1-py3-none-any.whl (108 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 108.5/108.5 kB 6.6 MB/s eta 0:00:00
+ Downloading pilmoji-2.0.4-py3-none-any.whl (9.7 kB)
+ Downloading pyrfc6266-1.0.2-py3-none-any.whl (4.7 kB)
+ Downloading dghs_imgutils-0.18.0-py3-none-any.whl (456 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 456.3/456.3 kB 18.4 MB/s eta 0:00:00
+ Downloading pyclipper-1.3.0.post6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (963 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 963.8/963.8 kB 19.1 MB/s eta 0:00:00
+ Downloading chardet-4.0.0-py2.py3-none-any.whl (178 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 178.7/178.7 kB 11.5 MB/s eta 0:00:00
+ Downloading pyparsing-3.0.9-py3-none-any.whl (98 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.3/98.3 kB 6.1 MB/s eta 0:00:00
+ Downloading pytimeparse-1.1.8-py2.py3-none-any.whl (10.0 kB)
+ Downloading natsort-8.4.0-py3-none-any.whl (38 kB)
+ Downloading random_user_agent-1.0.1-py3-none-any.whl (8.2 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.2/8.2 MB 70.6 MB/s eta 0:00:00
+ Downloading tzlocal-5.3.1-py3-none-any.whl (18 kB)
+ Building wheels for collected packages: urlobject, bitmath
+   Building wheel for urlobject (setup.py): started
+   Building wheel for urlobject (setup.py): finished with status 'done'
+   Created wheel for urlobject: filename=URLObject-2.4.3-py3-none-any.whl size=14510 sha256=8fece853e6a20350330a94326c46c11f0eabb710bbdcb6803d1ee02ca5e2219e
+   Stored in directory: /root/.cache/pip/wheels/c2/9b/7e/352391b49818230c72c6e965f0f2842374008f68e9b1c33f63
+   Building wheel for bitmath (setup.py): started
+   Building wheel for bitmath (setup.py): finished with status 'done'
+   Created wheel for bitmath: filename=bitmath-1.3.3.1-py3-none-any.whl size=23977 sha256=c4807033124a4b53d2cb7ed139a00c038d59d11722f1345a6665bdeb60ec74e6
+   Stored in directory: /root/.cache/pip/wheels/34/fe/c1/3312efbec08ffa57b1c9dbdb1b1297349aa444a86308840098
+ Successfully built urlobject bitmath
+ Installing collected packages: urlobject, random-user-agent, pytimeparse, pyclipper, bitmath, tzlocal, pyparsing, natsort, emoji, deprecation, chardet, bchlib, pyrfc6266, pilmoji, hbutils, hfutils, dghs-imgutils
+   Attempting uninstall: pyparsing
+     Found existing installation: pyparsing 3.2.3
+     Uninstalling pyparsing-3.2.3:
+       Successfully uninstalled pyparsing-3.2.3
+   Attempting uninstall: chardet
+     Found existing installation: chardet 5.2.0
+     Uninstalling chardet-5.2.0:
+       Successfully uninstalled chardet-5.2.0
+ Successfully installed bchlib-2.1.3 bitmath-1.3.3.1 chardet-4.0.0 deprecation-2.1.0 dghs-imgutils-0.18.0 emoji-2.11.1 hbutils-0.11.0 hfutils-0.11.1 natsort-8.4.0 pilmoji-2.0.4 pyclipper-1.3.0.post6 pyparsing-3.0.9 pyrfc6266-1.0.2 pytimeparse-1.1.8 random-user-agent-1.0.1 tzlocal-5.3.1 urlobject-2.4.3
+ Successfully installed dghs-imgutils[gpu]
+ Installing pycryptodome...
+[!]  Collecting pycryptodome
+   Downloading pycryptodome-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.4 kB)
+ Downloading pycryptodome-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.3 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 9.9 MB/s eta 0:00:00
+ Installing collected packages: pycryptodome
+ Successfully installed pycryptodome-3.23.0
+ Successfully installed pycryptodome
+ Installation completed.
+
+[ComfyUI-Manager] Queued works are completed.
+{'install': 1}
+
+After restarting ComfyUI, please refresh the browser.
+  0%|          | 0.00/78.6M [00:00<?, ?B/s]  0%|          | 65.5k/78.6M [00:00<02:02, 642kB/s]  0%|          | 131k/78.6M [00:00<02:03, 636kB/s]   0%|          | 295k/78.6M [00:00<01:12, 1.08MB/s]  1%|          | 688k/78.6M [00:00<00:35, 2.18MB/s]  2%|▏         | 1.67M/78.6M [00:00<00:15, 4.87MB/s]  5%|▌         | 4.16M/78.6M [00:00<00:06, 11.6MB/s] 11%|█         | 8.45M/78.6M [00:00<00:03, 21.7MB/s] 16%|█▌        | 12.7M/78.6M [00:00<00:02, 28.2MB/s] 22%|██▏       | 17.0M/78.6M [00:00<00:01, 32.9MB/s] 27%|██▋       | 21.3M/78.6M [00:01<00:01, 35.9MB/s] 33%|███▎      | 25.7M/78.6M [00:01<00:01, 38.1MB/s] 38%|███▊      | 30.0M/78.6M [00:01<00:01, 39.6MB/s] 44%|████▎     | 34.3M/78.6M [00:01<00:01, 40.7MB/s] 49%|████▉     | 38.6M/78.6M [00:01<00:00, 41.4MB/s] 55%|█████▍    | 43.0M/78.6M [00:01<00:00, 42.1MB/s] 60%|██████    | 47.4M/78.6M [00:01<00:00, 42.4MB/s] 66%|██████▌   | 51.7M/78.6M [00:01<00:00, 42.7MB/s] 71%|███████▏  | 56.1M/78.6M [00:01<00:00, 42.7MB/s] 77%|███████▋  | 60.4M/78.6M [00:01<00:00, 42.9MB/s] 82%|████████▏ | 64.8M/78.6M [00:02<00:00, 43.0MB/s] 88%|████████▊ | 69.1M/78.6M [00:02<00:00, 43.1MB/s] 94%|█████████▎| 73.5M/78.6M [00:02<00:00, 43.1MB/s] 99%|█████████▉| 77.9M/78.6M [00:02<00:00, 43.2MB/s]100%|██████████| 78.6M/78.6M [00:02<00:00, 33.6MB/s]
+Extracted zip file to /workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes
+Install: pip packages
+[ComfyUI-Manager] 'numpy' is remapped to 'numpy<2'
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'pyOpenSSL']
+[!]  Collecting pyOpenSSL
+   Downloading pyopenssl-25.1.0-py3-none-any.whl.metadata (17 kB)
+     Downloading pyopenssl-25.1.0-py3-none-any.whl (56 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.8/56.8 kB 840.5 kB/s eta 0:00:00
+ Installing collected packages: pyOpenSSL
+ Successfully installed pyOpenSSL-25.1.0
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'watchdog']
+[!]  Collecting watchdog
+   Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl.metadata (44 kB)
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.3/44.3 kB 712.9 kB/s eta 0:00:00
+ Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.1/79.1 kB 1.5 MB/s eta 0:00:00
+ Installing collected packages: watchdog
+ Successfully installed watchdog-6.0.0
+[ComfyUI-Manager] skip black listed pip installation: 'torchaudio'
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'clip-interrogator==0.6.0']
+[!]                                                  
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'transformers>=4.36.0']
+[!]                   
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'lark-parser']
+[!]  Collecting lark-parser
+   Downloading lark_parser-0.12.0-py2.py3-none-any.whl.metadata (1.7 kB)
+ Downloading lark_parser-0.12.0-py2.py3-none-any.whl (103 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 103.5/103.5 kB 1.1 MB/s eta 0:00:00
+ Installing collected packages: lark-parser
+ Successfully installed lark-parser-0.12.0
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'imageio-ffmpeg']
+[!]  
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'rembg']
+[!]                                    
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'omegaconf>=2.3.0']
+[!]    
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'Pillow>=9.5.0']
+[!]  
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'einops>=0.7.0']
+[!]  
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'trimesh>=4.0.5']
+[!]   
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'huggingface-hub']
+[!]              
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'soundfile>=0.12.1']
+[!]     
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'json-repair']
+[!]  Collecting json-repair
+   Downloading json_repair-0.47.6-py3-none-any.whl.metadata (12 kB)
+ Downloading json_repair-0.47.6-py3-none-any.whl (25 kB)
+ Installing collected packages: json-repair
+ Successfully installed json-repair-0.47.6
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'bitsandbytes']
+[!]                            
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'accelerate']
+[!]                                        
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'scenedetect']
+[!]  Collecting scenedetect[opencv-headless]
+   Downloading scenedetect-0.6.6-py3-none-any.whl.metadata (4.0 kB)
+      Downloading scenedetect-0.6.6-py3-none-any.whl (131 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 131.6/131.6 kB 1.3 MB/s eta 0:00:00
+ Installing collected packages: scenedetect
+ Successfully installed scenedetect-0.6.6
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'hydra-core>=1.3.2']
+[!]      
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'loralib>=0.1.2']
+[!]  Collecting loralib>=0.1.2
+   Downloading loralib-0.1.2-py3-none-any.whl.metadata (15 kB)
+ Downloading loralib-0.1.2-py3-none-any.whl (10 kB)
+ Installing collected packages: loralib
+ Successfully installed loralib-0.1.2
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'natsort>=8.4.0']
+[!]  
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'git+https://github.com/shadowcz007/SenseVoice-python.git']
+[!]  Collecting git+https://github.com/shadowcz007/SenseVoice-python.git
+   Cloning https://github.com/shadowcz007/SenseVoice-python.git to /tmp/latentsync_641dc1b7/pip-req-build-74ppuhnx
+[!]   Running command git clone --filter=blob:none --quiet https://github.com/shadowcz007/SenseVoice-python.git /tmp/latentsync_641dc1b7/pip-req-build-74ppuhnx
+   Resolved https://github.com/shadowcz007/SenseVoice-python.git to commit 43f6cf1531e7e4a7d7507d37fbc9b0fb169166ab
+   Preparing metadata (setup.py): started
+   Preparing metadata (setup.py): finished with status 'done'
+ Collecting setuptools<=65.0 (from sensevoice-onnx==1.1.0)
+   Downloading setuptools-65.0.0-py3-none-any.whl.metadata (6.2 kB)
+  Collecting kaldi_native_fbank (from sensevoice-onnx==1.1.0)
+   Downloading kaldi_native_fbank-1.21.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.3 kB)
+                         Downloading setuptools-65.0.0-py3-none-any.whl (1.2 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 6.4 MB/s eta 0:00:00
+ Downloading kaldi_native_fbank-1.21.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (254 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 255.0/255.0 kB 16.0 MB/s eta 0:00:00
+ Building wheels for collected packages: sensevoice-onnx
+   Building wheel for sensevoice-onnx (setup.py): started
+   Building wheel for sensevoice-onnx (setup.py): finished with status 'done'
+   Created wheel for sensevoice-onnx: filename=sensevoice_onnx-1.1.0-py3-none-any.whl size=16926 sha256=d7a2262fe15f669b6d9fe9cb50bb7718395a70d0d5cd4eb764459879457339a5
+   Stored in directory: /tmp/latentsync_641dc1b7/pip-ephem-wheel-cache-ey_eebgq/wheels/24/05/11/d3e8056302125580cef8dc61fc37ecf7e8a1e9a1c57a62fc6c
+ Successfully built sensevoice-onnx
+ Installing collected packages: setuptools, kaldi_native_fbank, sensevoice-onnx
+   Attempting uninstall: setuptools
+     Found existing installation: setuptools 70.2.0
+     Uninstalling setuptools-70.2.0:
+       Successfully uninstalled setuptools-70.2.0
+[!]  ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+Successfully installed kaldi_native_fbank-1.21.2 sensevoice-onnx-1.1.0 setuptools-65.0.0
+[!] thinc 8.3.6 requires numpy<3.0.0,>=2.0.0, but you have numpy 1.26.4 which is incompatible.
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'faster_whisper']
+[!]  Collecting faster_whisper
+   Downloading faster_whisper-1.1.1-py3-none-any.whl.metadata (16 kB)
+ Collecting ctranslate2<5,>=4.0 (from faster_whisper)
+   Downloading ctranslate2-4.6.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (10 kB)
+                         Downloading faster_whisper-1.1.1-py3-none-any.whl (1.1 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 5.6 MB/s eta 0:00:00
+ Downloading ctranslate2-4.6.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (38.8 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.8/38.8 MB 35.1 MB/s eta 0:00:00
+ Installing collected packages: ctranslate2, faster_whisper
+ Successfully installed ctranslate2-4.6.0 faster_whisper-1.1.1
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'git+https://github.com/openai/swarm.git']
+[!]  Collecting git+https://github.com/openai/swarm.git
+   Cloning https://github.com/openai/swarm.git to /tmp/latentsync_641dc1b7/pip-req-build-jwm4vkff
+[!]   Running command git clone --filter=blob:none --quiet https://github.com/openai/swarm.git /tmp/latentsync_641dc1b7/pip-req-build-jwm4vkff
+   Resolved https://github.com/openai/swarm.git to commit 0c82d7d868bb8e2d380dfd2a319b5c3a1f4c0cb9
+   Installing build dependencies: started
+   Installing build dependencies: finished with status 'done'
+   Getting requirements to build wheel: started
+   Getting requirements to build wheel: finished with status 'done'
+   Preparing metadata (pyproject.toml): started
+   Preparing metadata (pyproject.toml): finished with status 'done'
+   Collecting pytest (from swarm==0.1.0)
+   Downloading pytest-8.4.1-py3-none-any.whl.metadata (7.7 kB)
+   Collecting pre-commit (from swarm==0.1.0)
+   Downloading pre_commit-4.2.0-py2.py3-none-any.whl.metadata (1.3 kB)
+ Collecting instructor (from swarm==0.1.0)
+   Downloading instructor-1.9.0-py3-none-any.whl.metadata (11 kB)
+         Collecting docstring-parser<1.0,>=0.16 (from instructor->swarm==0.1.0)
+   Downloading docstring_parser-0.16-py3-none-any.whl.metadata (3.0 kB)
+  Collecting mkdocs-material>=9.5.49 (from instructor->swarm==0.1.0)
+   Downloading mkdocs_material-9.6.15-py3-none-any.whl.metadata (19 kB)
+ Collecting mkdocs>=1.6.1 (from instructor->swarm==0.1.0)
+   Downloading mkdocs-1.6.1-py3-none-any.whl.metadata (6.0 kB)
+   Collecting tenacity<10.0.0,>=8.2.3 (from instructor->swarm==0.1.0)
+   Downloading tenacity-9.1.2-py3-none-any.whl.metadata (1.2 kB)
+  Collecting cfgv>=2.0.0 (from pre-commit->swarm==0.1.0)
+   Downloading cfgv-3.4.0-py2.py3-none-any.whl.metadata (8.5 kB)
+ Collecting identify>=1.0.0 (from pre-commit->swarm==0.1.0)
+   Downloading identify-2.6.12-py2.py3-none-any.whl.metadata (4.4 kB)
+ Collecting nodeenv>=0.11.1 (from pre-commit->swarm==0.1.0)
+   Downloading nodeenv-1.9.1-py2.py3-none-any.whl.metadata (21 kB)
+  Collecting virtualenv>=20.10.0 (from pre-commit->swarm==0.1.0)
+   Downloading virtualenv-20.31.2-py3-none-any.whl.metadata (4.5 kB)
+     Collecting iniconfig>=1 (from pytest->swarm==0.1.0)
+   Downloading iniconfig-2.1.0-py3-none-any.whl.metadata (2.7 kB)
+  Collecting pluggy<2,>=1.5 (from pytest->swarm==0.1.0)
+   Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+             Collecting ghp-import>=1.0 (from mkdocs>=1.6.1->instructor->swarm==0.1.0)
+   Downloading ghp_import-2.1.0-py3-none-any.whl.metadata (7.2 kB)
+ Collecting markdown>=3.3.6 (from mkdocs>=1.6.1->instructor->swarm==0.1.0)
+   Downloading markdown-3.8.2-py3-none-any.whl.metadata (5.1 kB)
+ Collecting mergedeep>=1.3.4 (from mkdocs>=1.6.1->instructor->swarm==0.1.0)
+   Downloading mergedeep-1.3.4-py3-none-any.whl.metadata (4.3 kB)
+ Collecting mkdocs-get-deps>=0.2.0 (from mkdocs>=1.6.1->instructor->swarm==0.1.0)
+   Downloading mkdocs_get_deps-0.2.0-py3-none-any.whl.metadata (4.0 kB)
+  Collecting pyyaml-env-tag>=0.1 (from mkdocs>=1.6.1->instructor->swarm==0.1.0)
+   Downloading pyyaml_env_tag-1.1-py3-none-any.whl.metadata (5.5 kB)
+   Collecting backrefs~=5.7.post1 (from mkdocs-material>=9.5.49->instructor->swarm==0.1.0)
+   Downloading backrefs-5.9-py312-none-any.whl.metadata (3.2 kB)
+ Collecting colorama~=0.4 (from mkdocs-material>=9.5.49->instructor->swarm==0.1.0)
+   Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+ Collecting mkdocs-material-extensions~=1.3 (from mkdocs-material>=9.5.49->instructor->swarm==0.1.0)
+   Downloading mkdocs_material_extensions-1.3.1-py3-none-any.whl.metadata (6.9 kB)
+ Collecting paginate~=0.5 (from mkdocs-material>=9.5.49->instructor->swarm==0.1.0)
+   Downloading paginate-0.5.7-py2.py3-none-any.whl.metadata (11 kB)
+ Collecting pymdown-extensions~=10.2 (from mkdocs-material>=9.5.49->instructor->swarm==0.1.0)
+   Downloading pymdown_extensions-10.16-py3-none-any.whl.metadata (3.0 kB)
+     Collecting distlib<1,>=0.3.7 (from virtualenv>=20.10.0->pre-commit->swarm==0.1.0)
+   Downloading distlib-0.3.9-py2.py3-none-any.whl.metadata (5.2 kB)
+      Downloading instructor-1.9.0-py3-none-any.whl (94 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 94.7/94.7 kB 1.5 MB/s eta 0:00:00
+ Downloading pre_commit-4.2.0-py2.py3-none-any.whl (220 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 220.7/220.7 kB 3.6 MB/s eta 0:00:00
+ Downloading pytest-8.4.1-py3-none-any.whl (365 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 365.5/365.5 kB 7.4 MB/s eta 0:00:00
+ Downloading cfgv-3.4.0-py2.py3-none-any.whl (7.2 kB)
+ Downloading docstring_parser-0.16-py3-none-any.whl (36 kB)
+ Downloading identify-2.6.12-py2.py3-none-any.whl (99 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.1/99.1 kB 9.1 MB/s eta 0:00:00
+ Downloading iniconfig-2.1.0-py3-none-any.whl (6.0 kB)
+ Downloading mkdocs-1.6.1-py3-none-any.whl (3.9 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.9/3.9 MB 31.4 MB/s eta 0:00:00
+ Downloading mkdocs_material-9.6.15-py3-none-any.whl (8.7 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.7/8.7 MB 37.3 MB/s eta 0:00:00
+ Downloading nodeenv-1.9.1-py2.py3-none-any.whl (22 kB)
+ Downloading pluggy-1.6.0-py3-none-any.whl (20 kB)
+ Downloading tenacity-9.1.2-py3-none-any.whl (28 kB)
+ Downloading virtualenv-20.31.2-py3-none-any.whl (6.1 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.1/6.1 MB 38.6 MB/s eta 0:00:00
+ Downloading backrefs-5.9-py312-none-any.whl (397 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 397.9/397.9 kB 23.9 MB/s eta 0:00:00
+ Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+ Downloading distlib-0.3.9-py2.py3-none-any.whl (468 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 469.0/469.0 kB 27.4 MB/s eta 0:00:00
+ Downloading ghp_import-2.1.0-py3-none-any.whl (11 kB)
+ Downloading markdown-3.8.2-py3-none-any.whl (106 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 106.8/106.8 kB 6.8 MB/s eta 0:00:00
+ Downloading mergedeep-1.3.4-py3-none-any.whl (6.4 kB)
+ Downloading mkdocs_get_deps-0.2.0-py3-none-any.whl (9.5 kB)
+ Downloading mkdocs_material_extensions-1.3.1-py3-none-any.whl (8.7 kB)
+ Downloading paginate-0.5.7-py2.py3-none-any.whl (13 kB)
+ Downloading pymdown_extensions-10.16-py3-none-any.whl (266 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 266.1/266.1 kB 28.5 MB/s eta 0:00:00
+ Downloading pyyaml_env_tag-1.1-py3-none-any.whl (4.7 kB)
+ Building wheels for collected packages: swarm
+   Building wheel for swarm (pyproject.toml): started
+   Building wheel for swarm (pyproject.toml): finished with status 'done'
+   Created wheel for swarm: filename=swarm-0.1.0-py3-none-any.whl size=25913 sha256=bad62db5ea3e482c8bd8b76e200e38a52cf644e99f743ffdc722a5ec6d75048f
+   Stored in directory: /tmp/latentsync_641dc1b7/pip-ephem-wheel-cache-mmv8yjch/wheels/7e/5a/c8/4a3701c58e2a546c7be4c838027b5d2f2da5bff63ff1a8c8ee
+ Successfully built swarm
+ Installing collected packages: paginate, distlib, virtualenv, tenacity, pyyaml-env-tag, pluggy, nodeenv, mkdocs-material-extensions, mergedeep, markdown, iniconfig, identify, docstring-parser, colorama, cfgv, backrefs, pytest, pymdown-extensions, pre-commit, mkdocs-get-deps, ghp-import, mkdocs, mkdocs-material, instructor, swarm
+ Successfully installed backrefs-5.9 cfgv-3.4.0 colorama-0.4.6 distlib-0.3.9 docstring-parser-0.16 ghp-import-2.1.0 identify-2.6.12 iniconfig-2.1.0 instructor-1.9.0 markdown-3.8.2 mergedeep-1.3.4 mkdocs-1.6.1 mkdocs-get-deps-0.2.0 mkdocs-material-9.6.15 mkdocs-material-extensions-1.3.1 nodeenv-1.9.1 paginate-0.5.7 pluggy-1.6.0 pre-commit-4.2.0 pymdown-extensions-10.16 pytest-8.4.1 pyyaml-env-tag-1.1 swarm-0.1.0 tenacity-9.1.2 virtualenv-20.31.2
+DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+
+[ComfyUI-Manager] Queued works are completed.
+{'install': 1}
+
+After restarting ComfyUI, please refresh the browser.
+  0%|          | 0.00/101k [00:00<?, ?B/s]100%|██████████| 101k/101k [00:00<00:00, 1.00MB/s]100%|██████████| 101k/101k [00:00<00:00, 993kB/s] 
+Extracted zip file to /workspace/ComfyUI/custom_nodes/comfyui-videohelpersuite
+Install: pip packages
+DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+
+[ComfyUI-Manager] Queued works are completed.
+{'install': 1}
+
+After restarting ComfyUI, please refresh the browser.
+  0%|          | 0.00/39.8M [00:00<?, ?B/s]  0%|          | 32.8k/39.8M [00:00<02:54, 228kB/s]  0%|          | 98.3k/39.8M [00:00<01:52, 353kB/s]  1%|          | 229k/39.8M [00:00<00:58, 673kB/s]   1%|▏         | 557k/39.8M [00:00<00:26, 1.51MB/s]  3%|▎         | 1.38M/39.8M [00:00<00:10, 3.60MB/s]  9%|▊         | 3.41M/39.8M [00:00<00:04, 8.75MB/s] 19%|█▉        | 7.54M/39.8M [00:00<00:01, 18.7MB/s] 30%|███       | 12.0M/39.8M [00:00<00:01, 26.6MB/s] 41%|████      | 16.4M/39.8M [00:01<00:00, 31.7MB/s] 52%|█████▏    | 20.8M/39.8M [00:01<00:00, 35.4MB/s] 64%|██████▎   | 25.3M/39.8M [00:01<00:00, 38.1MB/s] 75%|███████▍  | 29.7M/39.8M [00:01<00:00, 40.0MB/s] 86%|████████▌ | 34.2M/39.8M [00:01<00:00, 41.3MB/s] 97%|█████████▋| 38.6M/39.8M [00:01<00:00, 42.2MB/s]100%|██████████| 39.8M/39.8M [00:01<00:00, 25.7MB/s]
+Extracted zip file to /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux
+Install: pip packages
+[ComfyUI-Manager] skip black listed pip installation: 'torch'
+
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'importlib_metadata']
+[!]   
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'opencv-python>=4.7.0.72']
+[!]   
+## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python3', '-m', 'pip', 'install',
+'filelock']
+[!]  
+Restarting... [Legacy Mode]
+
+
+Command: ['/opt/venv/bin/python3', '/workspace/ComfyUI/main.py', '--listen', '--use-sage-attention']
+DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+[START] Security scan
+[DONE] Security scan
+## ComfyUI-Manager: installing dependencies done.
+** ComfyUI startup time: 2025-07-06 18:03:57.369
+** Platform: Linux
+** Python version: 3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
+** Python executable: /opt/venv/bin/python3
+** ComfyUI Path: /workspace/ComfyUI
+** ComfyUI Base Folder Path: /workspace/ComfyUI
+** User directory: /workspace/ComfyUI/user
+** ComfyUI-Manager config path: /workspace/ComfyUI/user/default/ComfyUI-Manager/config.ini
+** Log path: /workspace/ComfyUI/user/comfyui.log
+DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+
+Prestartup times for custom nodes:
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/rgthree-comfy
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Easy-Use
+   2.7 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager
+
+Checkpoint files will always be loaded safely.
+Total VRAM 45484 MB, total RAM 773727 MB
+pytorch version: 2.8.0.dev20250531+cu128
+Set vram state to: NORMAL_VRAM
+Device: cuda:0 NVIDIA L40 : cudaMallocAsync
+Using sage attention
+Python version: 3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
+ComfyUI version: 0.3.39
+ComfyUI frontend version: 1.20.7
+[Prompt Server] web root: /opt/venv/lib/python3.12/site-packages/comfyui_frontend_package/static
+[36;20m[/workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux] | INFO -> Using ckpts path: /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts[0m
+[36;20m[/workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[36;20m[/workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+--------------
+[91m ### Mixlab Nodes: [93mLoaded
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/nodes/ChatGPT.py:959: SyntaxWarning: invalid escape sequence '\['
+  instructions='''回答问题时，请扮演一位具有多年空间设计和用户体验设计经验的设计师。你的回答应当天马行空，但又富有深度，带有苏格拉底的思考方式，并且使用脱口秀的风格。回答要简短且非常口语化。格式如下：
+json_repair## OK
+ChatGPT.available True
+edit_mask.available True
+## clip_interrogator_model not found: /workspace/ComfyUI/models/clip_interrogator/Salesforce/blip-image-captioning-base, pls download from https://huggingface.co/Salesforce/blip-image-captioning-base
+ClipInterrogator.available True
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/nodes/TextGenerateNode.py:107: SyntaxWarning: invalid escape sequence '\.'
+  result = re.sub('[^ ]+\.[^ ]+','', result)
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/nodes/TextGenerateNode.py:186: SyntaxWarning: invalid escape sequence '\s'
+  grammar = """
+## text_generator_model not found: /workspace/ComfyUI/models/prompt_generator/text2image-prompt-generator, pls download from https://huggingface.co/succinctly/text2image-prompt-generator/tree/main
+## zh_en_model not found: /workspace/ComfyUI/models/prompt_generator/opus-mt-zh-en, pls download from https://huggingface.co/Helsinki-NLP/opus-mt-zh-en/tree/main
+PromptGenerate.available True
+ChinesePrompt.available True
+RembgNode_.available True
+TripoSR.available
+MiniCPMNode.available
+Scenedetect.available
+FishSpeech.available
+SenseVoice.available
+Whisper.available False
+fal-client## OK
+FalVideo.available
+[93m -------------- [0m
+### Loading: ComfyUI-Impact-Pack (V8.17.1)
+[Impact Pack] Wildcards loading done.
+Set up system temp directory: /tmp/latentsync_641dc1b7/latentsync_276978a1
+[34m[ComfyUI-Easy-Use] server: [0mv1.3.1 [92mLoaded[0m
+[34m[ComfyUI-Easy-Use] web root: [0m/workspace/ComfyUI/custom_nodes/ComfyUI-Easy-Use/web_version/v2 [92mLoaded[0m
+[34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/workspace/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m220[0m [32mnodes successfully.[0m
+
+	[3m[93m"Art is the magic that brings beauty into the world."[0m[3m - Unknown[0m
+
+[34m[ComfyUI-RMBG][0m v[93m2.3.0[0m | [93m20 nodes[0m [92mLoaded[0m
+
+[92m[rgthree-comfy] Loaded 47 extraordinary nodes. 🎉[0m
+
+### Loading: ComfyUI-Manager (V3.32.5)
+[ComfyUI-Manager] network_mode: public
+### ComfyUI Version: v0.3.39-7-g97f23b81 | Released on '2025-05-30'
+/opt/venv/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+------------------------------------------
+[34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+------------------------------------------
+** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+------------------------------------------
+[94mtheUpsiders Logic Nodes: [92mLoaded[0m
+
+Import times for custom nodes:
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/websocket_image_save.py
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Logic
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Detail-Daemon
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/masquerade-nodes-comfyui
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/cg-use-everywhere
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/cg-image-picker
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyLiterals
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/comfy-plasma
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-LatentSyncWrapper
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_JPS-Nodes
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/mikey_nodes
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/comfyui-florence2
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-TeaCache
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-RMBG
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_essentials
+   0.1 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Frame-Interpolation
+   0.2 seconds: /workspace/ComfyUI/custom_nodes/comfyui-custom-scripts
+   0.3 seconds: /workspace/ComfyUI/custom_nodes/comfyui-kjnodes
+   0.3 seconds: /workspace/ComfyUI/custom_nodes/comfyui-videohelpersuite
+   0.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_UltimateSDUpscale
+   0.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager
+   0.3 seconds: /workspace/ComfyUI/custom_nodes/rgthree-comfy
+   0.3 seconds: /workspace/ComfyUI/custom_nodes/comfyui-logicutils
+   0.4 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes
+   0.4 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_LayerStyle
+   0.5 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_LayerStyle_Advance
+   0.7 seconds: /workspace/ComfyUI/custom_nodes/comfyui-impact-pack
+   1.0 seconds: /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux
+   1.2 seconds: /workspace/ComfyUI/custom_nodes/was-node-suite-comfyui
+   1.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-WanVideoWrapper
+   1.5 seconds: /workspace/ComfyUI/custom_nodes/bjornulf_custom_nodes
+   1.6 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Easy-Use
+  44.7 seconds: /workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes
+
+Starting server
+
+To see the GUI go to: http://0.0.0.0:8188
+To see the GUI go to: http://[::]:8188
+FETCH ComfyRegistry Data: 5/91
+FETCH ComfyRegistry Data: 10/91
+FETCH ComfyRegistry Data: 15/91
+FETCH ComfyRegistry Data: 20/91
+FETCH ComfyRegistry Data: 25/91
+FETCH ComfyRegistry Data: 30/91
+FETCH ComfyRegistry Data: 35/91
+FETCH ComfyRegistry Data: 40/91
+FETCH ComfyRegistry Data: 45/91
+FETCH ComfyRegistry Data: 50/91
+FETCH ComfyRegistry Data: 55/91
+FETCH ComfyRegistry Data: 60/91
+FETCH ComfyRegistry Data: 65/91
+FETCH ComfyRegistry Data: 70/91
+FETCH ComfyRegistry Data: 75/91
+FETCH ComfyRegistry Data: 80/91
+FETCH ComfyRegistry Data: 85/91
+FETCH ComfyRegistry Data: 90/91
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/photoswipe-lightbox.esm.min.js
+FETCH ComfyRegistry Data [DONE]
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/pickr.min.js
+[ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/photoswipe.min.css
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[ComfyUI-Manager] All startup tasks have been completed.
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/classic.min.css
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/juxtapose.css
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/juxtapose.min.js
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/model-viewer.min.js
+FETCH DATA from: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager/custom-node-list.json [DONE]
+FETCH DATA from: /workspace/ComfyUI/user/default/ComfyUI-Manager/cache/1514988643_custom-node-list.json [DONE]
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/node_db/dev/custom-node-list.json [DONE]
+[ComfyUI-Manager] Installation failed:
+Node 'comfyui_segment_anything@nightly' not found in [dev, cache]
+
+[ComfyUI-Manager] Queued works are completed.
+{'install': 1}
+
+After restarting ComfyUI, please refresh the browser.
+
+Restarting... [Legacy Mode]
+
+
+Command: ['/opt/venv/bin/python3', '/workspace/ComfyUI/main.py', '--listen', '--use-sage-attention']
+DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+[START] Security scan
+[DONE] Security scan
+## ComfyUI-Manager: installing dependencies done.
+** ComfyUI startup time: 2025-07-06 18:10:17.871
+** Platform: Linux
+** Python version: 3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
+** Python executable: /opt/venv/bin/python3
+** ComfyUI Path: /workspace/ComfyUI
+** ComfyUI Base Folder Path: /workspace/ComfyUI
+** User directory: /workspace/ComfyUI/user
+** ComfyUI-Manager config path: /workspace/ComfyUI/user/default/ComfyUI-Manager/config.ini
+** Log path: /workspace/ComfyUI/user/comfyui.log
+DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+
+Prestartup times for custom nodes:
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Easy-Use
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/rgthree-comfy
+   2.8 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager
+
+Checkpoint files will always be loaded safely.
+Total VRAM 45484 MB, total RAM 773727 MB
+pytorch version: 2.8.0.dev20250531+cu128
+Set vram state to: NORMAL_VRAM
+Device: cuda:0 NVIDIA L40 : cudaMallocAsync
+Using sage attention
+Python version: 3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
+ComfyUI version: 0.3.39
+ComfyUI frontend version: 1.20.7
+[Prompt Server] web root: /opt/venv/lib/python3.12/site-packages/comfyui_frontend_package/static
+[36;20m[/workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux] | INFO -> Using ckpts path: /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts[0m
+[36;20m[/workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[36;20m[/workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+--------------
+[91m ### Mixlab Nodes: [93mLoaded
+json_repair## OK
+ChatGPT.available True
+edit_mask.available True
+## clip_interrogator_model not found: /workspace/ComfyUI/models/clip_interrogator/Salesforce/blip-image-captioning-base, pls download from https://huggingface.co/Salesforce/blip-image-captioning-base
+ClipInterrogator.available True
+## text_generator_model not found: /workspace/ComfyUI/models/prompt_generator/text2image-prompt-generator, pls download from https://huggingface.co/succinctly/text2image-prompt-generator/tree/main
+## zh_en_model not found: /workspace/ComfyUI/models/prompt_generator/opus-mt-zh-en, pls download from https://huggingface.co/Helsinki-NLP/opus-mt-zh-en/tree/main
+PromptGenerate.available True
+ChinesePrompt.available True
+RembgNode_.available True
+TripoSR.available
+MiniCPMNode.available
+Scenedetect.available
+FishSpeech.available
+SenseVoice.available
+Whisper.available False
+fal-client## OK
+FalVideo.available
+[93m -------------- [0m
+### Loading: ComfyUI-Impact-Pack (V8.17.1)
+[Impact Pack] Wildcards loading done.
+Set up system temp directory: /tmp/latentsync_641dc1b7/latentsync_276978a1/latentsync_d0044785
+[34m[ComfyUI-Easy-Use] server: [0mv1.3.1 [92mLoaded[0m
+[34m[ComfyUI-Easy-Use] web root: [0m/workspace/ComfyUI/custom_nodes/ComfyUI-Easy-Use/web_version/v2 [92mLoaded[0m
+[34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/workspace/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m220[0m [32mnodes successfully.[0m
+
+	[3m[93m"Art is a harmony parallel with nature."[0m[3m - Paul Cézanne[0m
+
+[34m[ComfyUI-RMBG][0m v[93m2.3.0[0m | [93m20 nodes[0m [92mLoaded[0m
+
+[92m[rgthree-comfy] Loaded 47 extraordinary nodes. 🎉[0m
+
+### Loading: ComfyUI-Manager (V3.32.5)
+[ComfyUI-Manager] network_mode: public
+### ComfyUI Version: v0.3.39-7-g97f23b81 | Released on '2025-05-30'
+/opt/venv/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+------------------------------------------
+[34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+------------------------------------------
+** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+------------------------------------------
+[94mtheUpsiders Logic Nodes: [92mLoaded[0m
+Web extensions folder found at /workspace/ComfyUI/web/extensions/ComfyLiterals
+
+Import times for custom nodes:
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/websocket_image_save.py
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Logic
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Detail-Daemon
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/cg-use-everywhere
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-LatentSyncWrapper
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/cg-image-picker
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyLiterals
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/comfy-plasma
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_JPS-Nodes
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/masquerade-nodes-comfyui
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/comfyui-florence2
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/mikey_nodes
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-RMBG
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-TeaCache
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_essentials
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_UltimateSDUpscale
+   0.1 seconds: /workspace/ComfyUI/custom_nodes/comfyui-custom-scripts
+   0.1 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Frame-Interpolation
+   0.1 seconds: /workspace/ComfyUI/custom_nodes/comfyui-videohelpersuite
+   0.1 seconds: /workspace/ComfyUI/custom_nodes/comfyui-impact-pack
+   0.2 seconds: /workspace/ComfyUI/custom_nodes/comfyui-kjnodes
+   0.2 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes
+   0.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_LayerStyle
+   0.3 seconds: /workspace/ComfyUI/custom_nodes/rgthree-comfy
+   0.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_LayerStyle_Advance
+   0.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager
+   0.4 seconds: /workspace/ComfyUI/custom_nodes/comfyui-logicutils
+   0.5 seconds: /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux
+   0.6 seconds: /workspace/ComfyUI/custom_nodes/bjornulf_custom_nodes
+   1.2 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-WanVideoWrapper
+   1.2 seconds: /workspace/ComfyUI/custom_nodes/was-node-suite-comfyui
+   1.4 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Easy-Use
+   2.1 seconds: /workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes
+
+Starting server
+
+To see the GUI go to: http://0.0.0.0:8188
+To see the GUI go to: http://[::]:8188
+FETCH ComfyRegistry Data: 5/91
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/photoswipe-lightbox.esm.min.js
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/pickr.min.js
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/photoswipe.min.css
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/juxtapose.min.js
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/classic.min.css
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/juxtapose.css
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/model-viewer.min.js
+FETCH ComfyRegistry Data: 10/91
+FETCH ComfyRegistry Data: 15/91
+FETCH ComfyRegistry Data: 20/91
+FETCH ComfyRegistry Data: 25/91
+FETCH ComfyRegistry Data: 30/91
+FETCH ComfyRegistry Data: 35/91
+FETCH ComfyRegistry Data: 40/91
+FETCH ComfyRegistry Data: 45/91
+FETCH ComfyRegistry Data: 50/91
+FETCH ComfyRegistry Data: 55/91
+FETCH DATA from: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager/custom-node-list.json [DONE]
+FETCH DATA from: /workspace/ComfyUI/user/default/ComfyUI-Manager/cache/1514988643_custom-node-list.json [DONE]
+FETCH DATA from: /workspace/ComfyUI/user/default/ComfyUI-Manager/cache/955009461_custom-node-list.json [DONE]
+[ComfyUI-Manager] Installation failed:
+Node 'comfyui_segment_anything@nightly' not found in [dev, cache]
+
+[ComfyUI-Manager] Queued works are completed.
+{'install': 1}
+
+After restarting ComfyUI, please refresh the browser.
+FETCH ComfyRegistry Data: 60/91
+FETCH ComfyRegistry Data: 65/91
+FETCH ComfyRegistry Data: 70/91
+FETCH ComfyRegistry Data: 75/91
+FETCH ComfyRegistry Data: 80/91
+FETCH ComfyRegistry Data: 85/91
+FETCH ComfyRegistry Data: 90/91
+FETCH ComfyRegistry Data [DONE]
+[ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[ComfyUI-Manager] All startup tasks have been completed.
+
+Restarting... [Legacy Mode]
+
+
+Command: ['/opt/venv/bin/python3', '/workspace/ComfyUI/main.py', '--listen', '--use-sage-attention']
+DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+[START] Security scan
+[DONE] Security scan
+## ComfyUI-Manager: installing dependencies done.
+** ComfyUI startup time: 2025-07-06 18:15:33.066
+** Platform: Linux
+** Python version: 3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
+** Python executable: /opt/venv/bin/python3
+** ComfyUI Path: /workspace/ComfyUI
+** ComfyUI Base Folder Path: /workspace/ComfyUI
+** User directory: /workspace/ComfyUI/user
+** ComfyUI-Manager config path: /workspace/ComfyUI/user/default/ComfyUI-Manager/config.ini
+** Log path: /workspace/ComfyUI/user/comfyui.log
+DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+DEPRECATION: Loading egg at /opt/venv/lib/python3.12/site-packages/sageattention-2.2.0-py3.12-linux-x86_64.egg is deprecated. pip 24.3 will enforce this behaviour change. A possible replacement is to use pip for package installation.. Discussion can be found at https://github.com/pypa/pip/issues/12330
+
+Prestartup times for custom nodes:
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/rgthree-comfy
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Easy-Use
+   2.7 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager
+
+Checkpoint files will always be loaded safely.
+Total VRAM 45484 MB, total RAM 773727 MB
+pytorch version: 2.8.0.dev20250531+cu128
+Set vram state to: NORMAL_VRAM
+Device: cuda:0 NVIDIA L40 : cudaMallocAsync
+Using sage attention
+Python version: 3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
+ComfyUI version: 0.3.39
+ComfyUI frontend version: 1.20.7
+[Prompt Server] web root: /opt/venv/lib/python3.12/site-packages/comfyui_frontend_package/static
+[36;20m[/workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux] | INFO -> Using ckpts path: /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts[0m
+[36;20m[/workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[36;20m[/workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+--------------
+[91m ### Mixlab Nodes: [93mLoaded
+json_repair## OK
+ChatGPT.available True
+edit_mask.available True
+## clip_interrogator_model not found: /workspace/ComfyUI/models/clip_interrogator/Salesforce/blip-image-captioning-base, pls download from https://huggingface.co/Salesforce/blip-image-captioning-base
+ClipInterrogator.available True
+## text_generator_model not found: /workspace/ComfyUI/models/prompt_generator/text2image-prompt-generator, pls download from https://huggingface.co/succinctly/text2image-prompt-generator/tree/main
+## zh_en_model not found: /workspace/ComfyUI/models/prompt_generator/opus-mt-zh-en, pls download from https://huggingface.co/Helsinki-NLP/opus-mt-zh-en/tree/main
+PromptGenerate.available True
+ChinesePrompt.available True
+RembgNode_.available True
+TripoSR.available
+MiniCPMNode.available
+Scenedetect.available
+FishSpeech.available
+SenseVoice.available
+Whisper.available False
+fal-client## OK
+FalVideo.available
+[93m -------------- [0m
+### Loading: ComfyUI-Impact-Pack (V8.17.1)
+[Impact Pack] Wildcards loading done.
+Set up system temp directory: /tmp/latentsync_641dc1b7/latentsync_276978a1/latentsync_d0044785/latentsync_a2cd5f90
+[34m[ComfyUI-Easy-Use] server: [0mv1.3.1 [92mLoaded[0m
+[34m[ComfyUI-Easy-Use] web root: [0m/workspace/ComfyUI/custom_nodes/ComfyUI-Easy-Use/web_version/v2 [92mLoaded[0m
+[34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/workspace/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m220[0m [32mnodes successfully.[0m
+
+	[3m[93m"Art is the magic that brings beauty into the world."[0m[3m - Unknown[0m
+
+[34m[ComfyUI-RMBG][0m v[93m2.3.0[0m | [93m20 nodes[0m [92mLoaded[0m
+
+[92m[rgthree-comfy] Loaded 47 extraordinary nodes. 🎉[0m
+
+### Loading: ComfyUI-Manager (V3.32.5)
+[ComfyUI-Manager] network_mode: public
+### ComfyUI Version: v0.3.39-7-g97f23b81 | Released on '2025-05-30'
+/opt/venv/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+------------------------------------------
+[34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+------------------------------------------
+** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+------------------------------------------
+[94mtheUpsiders Logic Nodes: [92mLoaded[0m
+Web extensions folder found at /workspace/ComfyUI/web/extensions/ComfyLiterals
+
+Import times for custom nodes:
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/websocket_image_save.py
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Logic
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Detail-Daemon
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/cg-use-everywhere
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-LatentSyncWrapper
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/masquerade-nodes-comfyui
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/cg-image-picker
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyLiterals
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_JPS-Nodes
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/comfy-plasma
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/comfyui-florence2
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/mikey_nodes
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-TeaCache
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-RMBG
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_essentials
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/comfyui-custom-scripts
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_UltimateSDUpscale
+   0.0 seconds: /workspace/ComfyUI/custom_nodes/comfyui-kjnodes
+   0.1 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Frame-Interpolation
+   0.1 seconds: /workspace/ComfyUI/custom_nodes/comfyui-impact-pack
+   0.1 seconds: /workspace/ComfyUI/custom_nodes/comfyui-videohelpersuite
+   0.2 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes
+   0.3 seconds: /workspace/ComfyUI/custom_nodes/rgthree-comfy
+   0.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_LayerStyle
+   0.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_LayerStyle_Advance
+   0.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager
+   0.4 seconds: /workspace/ComfyUI/custom_nodes/comfyui-logicutils
+   0.4 seconds: /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux
+   0.5 seconds: /workspace/ComfyUI/custom_nodes/bjornulf_custom_nodes
+   1.2 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-WanVideoWrapper
+   1.2 seconds: /workspace/ComfyUI/custom_nodes/was-node-suite-comfyui
+   1.5 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Easy-Use
+   2.1 seconds: /workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes
+
+Starting server
+
+To see the GUI go to: http://0.0.0.0:8188
+To see the GUI go to: http://[::]:8188
+FETCH ComfyRegistry Data: 5/91
+FETCH ComfyRegistry Data: 10/91
+FETCH ComfyRegistry Data: 15/91
+FETCH ComfyRegistry Data: 20/91
+FETCH ComfyRegistry Data: 25/91
+FETCH ComfyRegistry Data: 30/91
+FETCH ComfyRegistry Data: 35/91
+FETCH ComfyRegistry Data: 40/91
+FETCH ComfyRegistry Data: 45/91
+FETCH ComfyRegistry Data: 50/91
+FETCH ComfyRegistry Data: 55/91
+FETCH ComfyRegistry Data: 60/91
+FETCH ComfyRegistry Data: 65/91
+FETCH ComfyRegistry Data: 70/91
+FETCH ComfyRegistry Data: 75/91
+FETCH ComfyRegistry Data: 80/91
+FETCH ComfyRegistry Data: 85/91
+FETCH ComfyRegistry Data: 90/91
+FETCH ComfyRegistry Data [DONE]
+[ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[ComfyUI-Manager] All startup tasks have been completed.
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/photoswipe-lightbox.esm.min.js
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/photoswipe.min.css
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/pickr.min.js
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/juxtapose.min.js
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/classic.min.css
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/model-viewer.min.js
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/juxtapose.css
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/photoswipe-lightbox.esm.min.js
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/pickr.min.js
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/photoswipe.min.css
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/classic.min.css
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/juxtapose.css
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/model-viewer.min.js
+/workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/juxtapose.min.js
