@@ -1308,3 +1308,417 @@ FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main
 /workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/juxtapose.css
 /workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/model-viewer.min.js
 /workspace/ComfyUI/custom_nodes/comfyui-mixlab-nodes/webApp/lib/juxtapose.min.js
+got prompt
+Failed to validate prompt for output 271:
+* WanVideoLoraSelect 16:
+  - Value not in list: lora: 'Video\Wan21_CausVid_14B_T2V_lora_rank32.safetensors' not in ['Wan21_CausVid_14B_T2V_lora_rank32.safetensors', 'Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors', 'big_breasts_v2_epoch_30.safetensors']
+Output will be ignored
+Failed to validate prompt for output 88:
+Output will be ignored
+Downloading Florence2 model to: /workspace/ComfyUI/models/LLM/Florence-2-base
+/opt/venv/lib/python3.12/site-packages/huggingface_hub/file_download.py:980: UserWarning: `local_dir_use_symlinks` parameter is deprecated and will be ignored. The process to download files to a local folder has been updated and do not rely on symlinks anymore. You only need to pass a destination folder as`local_dir`.
+For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/download#download-files-to-local-folder.
+  warnings.warn(
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Fetching 15 files:   7%|▋         | 1/15 [00:01<00:25,  1.85s/it]Fetching 15 files:  27%|██▋       | 4/15 [00:02<00:04,  2.30it/s]Fetching 15 files:  60%|██████    | 9/15 [00:02<00:01,  4.17it/s]Fetching 15 files:  80%|████████  | 12/15 [00:06<00:01,  1.59it/s]Fetching 15 files: 100%|██████████| 15/15 [00:06<00:00,  2.20it/s]
+Florence2 using sdpa for attention
+<unknown>:499: SyntaxWarning: invalid escape sequence '\d'
+/root/.cache/huggingface/modules/transformers_modules/Florence-2-base/processing_florence2.py:499: SyntaxWarning: invalid escape sequence '\d'
+  """
+</s><s>The image is a portrait of a young woman with long dark hair. She is wearing a white tank top and black off-the-shoulder sleeves. Her hair is styled in loose waves and falls over her shoulders. She has a serious expression on her face and is looking directly at the camera. The background is blurred, but it appears to be a room with a wooden table and a framed picture hanging on the wall.</s>
+Offloading model...
+#image_list 116 1
+xFormers not available
+xFormers not available
+Failed to find /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts/depth-anything/Depth-Anything-V2-Large/depth_anything_v2_vitl.pth.
+ Downloading from huggingface.co
+cacher folder is /tmp, you can change it by custom_tmp_path in config.yaml
+/opt/venv/lib/python3.12/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+[Errno 2] No such file or directory: '/tmp/ckpts'
+model_path is /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts/depth-anything/Depth-Anything-V2-Large/depth_anything_v2_vitl.pth
+using MLP layer as FFN
+Failed to find /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts/yzd-v/DWPose/yolox_l.onnx.
+ Downloading from huggingface.co
+cacher folder is /tmp, you can change it by custom_tmp_path in config.yaml
+[Errno 2] No such file or directory: '/tmp/ckpts'
+model_path is /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts/yzd-v/DWPose/yolox_l.onnx
+Failed to find /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts/yzd-v/DWPose/dw-ll_ucoco_384.onnx.
+ Downloading from huggingface.co
+cacher folder is /tmp, you can change it by custom_tmp_path in config.yaml
+[Errno 2] No such file or directory: '/tmp/ckpts'
+model_path is /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts/yzd-v/DWPose/dw-ll_ucoco_384.onnx
+
+DWPose: Using yolox_l.onnx for bbox detection and dw-ll_ucoco_384.onnx for pose estimation
+DWPose: Caching ONNXRuntime session yolox_l.onnx...
+DWPose: Caching ONNXRuntime session dw-ll_ucoco_384.onnx...
+DWPose: Bbox 191.02ms
+DWPose: Pose 193.22ms on 1 people
+
+DWPose: Bbox 12.23ms
+DWPose: Pose 5.89ms on 1 people
+
+DWPose: Bbox 99.63ms
+DWPose: Pose 6.30ms on 1 people
+
+DWPose: Bbox 10.89ms
+DWPose: Pose 5.51ms on 1 people
+
+DWPose: Bbox 100.03ms
+DWPose: Pose 5.61ms on 1 people
+
+DWPose: Bbox 98.60ms
+DWPose: Pose 9.69ms on 1 people
+
+DWPose: Bbox 10.35ms
+DWPose: Pose 5.41ms on 1 people
+
+DWPose: Bbox 97.12ms
+DWPose: Pose 6.10ms on 1 people
+
+DWPose: Bbox 12.51ms
+DWPose: Pose 12.58ms on 1 people
+
+DWPose: Bbox 101.61ms
+DWPose: Pose 6.06ms on 1 people
+
+DWPose: Bbox 98.51ms
+DWPose: Pose 6.57ms on 1 people
+
+DWPose: Bbox 99.56ms
+DWPose: Pose 6.14ms on 1 people
+
+DWPose: Bbox 10.93ms
+DWPose: Pose 5.73ms on 1 people
+
+DWPose: Bbox 100.24ms
+DWPose: Pose 5.79ms on 1 people
+
+DWPose: Bbox 99.42ms
+DWPose: Pose 5.68ms on 1 people
+
+DWPose: Bbox 11.12ms
+DWPose: Pose 87.71ms on 1 people
+
+DWPose: Bbox 10.65ms
+DWPose: Pose 5.38ms on 1 people
+
+DWPose: Bbox 13.77ms
+DWPose: Pose 5.56ms on 1 people
+
+DWPose: Bbox 107.33ms
+DWPose: Pose 5.79ms on 1 people
+
+DWPose: Bbox 10.67ms
+DWPose: Pose 5.09ms on 1 people
+
+DWPose: Bbox 97.17ms
+DWPose: Pose 5.62ms on 1 people
+
+DWPose: Bbox 104.48ms
+DWPose: Pose 5.53ms on 1 people
+
+DWPose: Bbox 10.63ms
+DWPose: Pose 5.67ms on 1 people
+
+DWPose: Bbox 14.04ms
+DWPose: Pose 5.63ms on 1 people
+
+DWPose: Bbox 98.84ms
+DWPose: Pose 6.32ms on 1 people
+
+DWPose: Bbox 99.23ms
+DWPose: Pose 6.11ms on 1 people
+
+DWPose: Bbox 98.93ms
+DWPose: Pose 6.65ms on 1 people
+
+DWPose: Bbox 98.91ms
+DWPose: Pose 6.39ms on 1 people
+
+DWPose: Bbox 99.34ms
+DWPose: Pose 6.77ms on 1 people
+
+DWPose: Bbox 98.32ms
+DWPose: Pose 5.99ms on 1 people
+
+DWPose: Bbox 101.78ms
+DWPose: Pose 8.26ms on 1 people
+
+DWPose: Bbox 101.51ms
+DWPose: Pose 8.51ms on 1 people
+
+DWPose: Bbox 17.05ms
+DWPose: Pose 5.78ms on 1 people
+
+DWPose: Bbox 99.91ms
+DWPose: Pose 5.65ms on 1 people
+
+DWPose: Bbox 99.83ms
+DWPose: Pose 6.13ms on 1 people
+
+DWPose: Bbox 98.96ms
+DWPose: Pose 5.70ms on 1 people
+
+DWPose: Bbox 11.06ms
+DWPose: Pose 87.05ms on 1 people
+
+DWPose: Bbox 99.09ms
+DWPose: Pose 5.94ms on 1 people
+
+DWPose: Bbox 10.32ms
+DWPose: Pose 5.79ms on 1 people
+
+DWPose: Bbox 99.30ms
+DWPose: Pose 5.87ms on 1 people
+
+DWPose: Bbox 95.31ms
+DWPose: Pose 5.61ms on 1 people
+
+DWPose: Bbox 99.69ms
+DWPose: Pose 5.59ms on 1 people
+
+DWPose: Bbox 10.18ms
+DWPose: Pose 5.50ms on 1 people
+
+DWPose: Bbox 99.51ms
+DWPose: Pose 6.30ms on 1 people
+
+DWPose: Bbox 103.42ms
+DWPose: Pose 6.31ms on 1 people
+
+DWPose: Bbox 98.25ms
+DWPose: Pose 6.91ms on 1 people
+
+DWPose: Bbox 10.19ms
+DWPose: Pose 5.68ms on 1 people
+
+DWPose: Bbox 10.04ms
+DWPose: Pose 5.47ms on 1 people
+
+DWPose: Bbox 97.34ms
+DWPose: Pose 5.71ms on 1 people
+
+DWPose: Bbox 99.04ms
+DWPose: Pose 5.35ms on 1 people
+
+DWPose: Bbox 98.39ms
+DWPose: Pose 6.92ms on 1 people
+
+DWPose: Bbox 10.60ms
+DWPose: Pose 5.85ms on 1 people
+
+DWPose: Bbox 102.59ms
+DWPose: Pose 5.44ms on 1 people
+
+DWPose: Bbox 95.17ms
+DWPose: Pose 5.66ms on 1 people
+
+DWPose: Bbox 97.35ms
+DWPose: Pose 13.23ms on 1 people
+
+DWPose: Bbox 103.83ms
+DWPose: Pose 5.35ms on 1 people
+
+DWPose: Bbox 102.93ms
+DWPose: Pose 5.75ms on 1 people
+
+DWPose: Bbox 99.19ms
+DWPose: Pose 5.48ms on 1 people
+
+DWPose: Bbox 14.63ms
+DWPose: Pose 5.67ms on 1 people
+
+DWPose: Bbox 10.38ms
+DWPose: Pose 5.84ms on 1 people
+
+DWPose: Bbox 13.80ms
+DWPose: Pose 5.68ms on 1 people
+
+DWPose: Bbox 9.98ms
+DWPose: Pose 6.22ms on 1 people
+
+DWPose: Bbox 98.96ms
+DWPose: Pose 5.47ms on 1 people
+
+DWPose: Bbox 10.18ms
+DWPose: Pose 5.51ms on 1 people
+
+DWPose: Bbox 10.77ms
+DWPose: Pose 5.80ms on 1 people
+
+DWPose: Bbox 11.18ms
+DWPose: Pose 5.24ms on 1 people
+
+DWPose: Bbox 10.09ms
+DWPose: Pose 5.42ms on 1 people
+
+DWPose: Bbox 10.64ms
+DWPose: Pose 5.23ms on 1 people
+
+DWPose: Bbox 15.73ms
+DWPose: Pose 86.76ms on 1 people
+
+DWPose: Bbox 11.08ms
+DWPose: Pose 5.61ms on 1 people
+
+DWPose: Bbox 11.40ms
+DWPose: Pose 11.30ms on 1 people
+
+DWPose: Bbox 10.69ms
+DWPose: Pose 6.06ms on 1 people
+
+DWPose: Bbox 103.28ms
+DWPose: Pose 5.93ms on 1 people
+
+DWPose: Bbox 102.89ms
+DWPose: Pose 6.10ms on 1 people
+
+DWPose: Bbox 99.21ms
+DWPose: Pose 6.28ms on 1 people
+
+DWPose: Bbox 99.79ms
+DWPose: Pose 6.45ms on 1 people
+
+DWPose: Bbox 11.15ms
+DWPose: Pose 5.89ms on 1 people
+
+DWPose: Bbox 18.32ms
+DWPose: Pose 11.79ms on 1 people
+
+DWPose: Bbox 14.65ms
+DWPose: Pose 6.01ms on 1 people
+
+DWPose: Bbox 20.49ms
+DWPose: Pose 6.97ms on 1 people
+
+DWPose: Bbox 16.35ms
+DWPose: Pose 6.42ms on 1 people
+
+DWPose: Bbox 101.17ms
+DWPose: Pose 5.90ms on 1 people
+
+DWPose: Bbox 100.81ms
+DWPose: Pose 6.04ms on 1 people
+
+DWPose: Bbox 100.04ms
+DWPose: Pose 6.27ms on 1 people
+
+DWPose: Bbox 99.57ms
+DWPose: Pose 5.86ms on 1 people
+
+DWPose: Bbox 10.71ms
+DWPose: Pose 6.28ms on 1 people
+
+DWPose: Bbox 10.78ms
+DWPose: Pose 6.23ms on 1 people
+
+DWPose: Bbox 99.19ms
+DWPose: Pose 6.24ms on 1 people
+
+DWPose: Bbox 11.24ms
+DWPose: Pose 5.89ms on 1 people
+
+DWPose: Bbox 11.64ms
+DWPose: Pose 6.06ms on 1 people
+
+DWPose: Bbox 14.28ms
+DWPose: Pose 5.74ms on 1 people
+
+DWPose: Bbox 12.26ms
+DWPose: Pose 6.11ms on 1 people
+
+DWPose: Bbox 15.85ms
+DWPose: Pose 5.87ms on 1 people
+
+DWPose: Bbox 10.88ms
+DWPose: Pose 6.05ms on 1 people
+
+DWPose: Bbox 10.69ms
+DWPose: Pose 5.74ms on 1 people
+
+DWPose: Bbox 12.92ms
+DWPose: Pose 5.96ms on 1 people
+
+DWPose: Bbox 11.06ms
+DWPose: Pose 5.88ms on 1 people
+
+DWPose: Bbox 99.87ms
+DWPose: Pose 9.52ms on 1 people
+
+DWPose: Bbox 97.76ms
+DWPose: Pose 5.75ms on 1 people
+
+DWPose: Bbox 95.57ms
+DWPose: Pose 5.82ms on 1 people
+
+DWPose: Bbox 98.66ms
+DWPose: Pose 6.51ms on 1 people
+
+DWPose: Bbox 11.06ms
+DWPose: Pose 5.98ms on 1 people
+
+DWPose: Bbox 14.17ms
+DWPose: Pose 6.02ms on 1 people
+
+DWPose: Bbox 11.43ms
+DWPose: Pose 6.14ms on 1 people
+
+DWPose: Bbox 11.05ms
+DWPose: Pose 5.86ms on 1 people
+
+DWPose: Bbox 16.00ms
+DWPose: Pose 87.00ms on 1 people
+
+DWPose: Bbox 11.24ms
+DWPose: Pose 5.93ms on 1 people
+
+DWPose: Bbox 98.21ms
+DWPose: Pose 5.77ms on 1 people
+
+DWPose: Bbox 99.89ms
+DWPose: Pose 6.12ms on 1 people
+
+DWPose: Bbox 103.24ms
+DWPose: Pose 6.05ms on 1 people
+
+DWPose: Bbox 10.91ms
+DWPose: Pose 5.82ms on 1 people
+
+DWPose: Bbox 100.73ms
+DWPose: Pose 5.97ms on 1 people
+
+DWPose: Bbox 16.36ms
+DWPose: Pose 5.90ms on 1 people
+
+DWPose: Bbox 16.24ms
+DWPose: Pose 8.17ms on 1 people
+
+DWPose: Bbox 100.66ms
+DWPose: Pose 6.22ms on 1 people
+
+DWPose: Bbox 99.54ms
+DWPose: Pose 6.00ms on 1 people
+
+Prompt executed in 246.51 seconds
+got prompt
+Failed to validate prompt for output 271:
+* WanVideoLoraSelect 16:
+  - Value not in list: lora: 'Video\Wan21_CausVid_14B_T2V_lora_rank32.safetensors' not in ['Wan21_CausVid_14B_T2V_lora_rank32.safetensors', 'Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors', 'big_breasts_v2_epoch_30.safetensors']
+Output will be ignored
+Failed to validate prompt for output 88:
+Output will be ignored
+</s><s>The image is a portrait of a young woman with long dark hair. She is wearing a white tank top with a black off-the-shoulder top underneath. Her hair is styled in loose waves and falls over her shoulders. She has a serious expression on her face and is looking directly at the camera. The background is blurred, but it appears to be a room with a wooden table and a framed picture hanging on the wall. The overall mood of the image is casual and relaxed.</s>
+Offloading model...
+Prompt executed in 1.20 seconds
+got prompt
+</s><s>The image is a portrait of a young woman with long dark hair. She is wearing a white tank top with a black off-the-shoulder top underneath. Her hair is styled in loose waves and falls over her shoulders. She has a serious expression on her face and is looking directly at the camera. The background is blurred, but it appears to be a room with a wooden table and a framed picture hanging on the wall. The overall mood of the image is casual and relaxed.</s>
+Offloading model...
+Detected model in_channels: 16
+Model type: t2v, num_heads: 40, num_layers: 40
+Model variant detected: 14B
+model_type FLOW
+Using accelerate to load and assign model weights to device...
+Loading transformer parameters to cpu:   0%|          | 0/1331 [00:00<?, ?it/s]Loading transformer parameters to cpu:   0%|          | 3/1331 [00:00<00:48, 27.66it/s]Loading transformer parameters to cpu:   0%|          | 6/1331 [00:00<01:51, 11.85it/s]Loading transformer parameters to cpu:   1%|          | 9/1331 [00:00<02:08, 10.27it/s]Loading transformer parameters to cpu:   1%|          | 11/1331 [00:01<04:08,  5.31it/s]Loading transformer parameters to cpu:   1%|          | 14/1331 [00:02<04:01,  5.46it/s]Loading transformer parameters to cpu:   1%|          | 16/1331 [00:02<04:42,  4.66it/s]Loading transformer parameters to cpu:   1%|▏         | 18/1331 [00:03<05:27,  4.01it/s]Loading transformer parameters to cpu:   2%|▏         | 20/1331 [00:03<05:28,  4.00it/s]Loading transformer parameters to cpu:   2%|▏         | 26/1331 [00:04<03:38,  5.98it/s]Loading transformer parameters to cpu:   2%|▏         | 28/1331 [00:04<03:47,  5.72it/s]Loading transformer parameters to cpu:   2%|▏         | 30/1331 [00:05<04:00,  5.41it/s]Loading transformer parameters to cpu:   2%|▏         | 32/1331 [00:05<04:16,  5.06it/s]Loading transformer parameters to cpu:   3%|▎         | 36/1331 [00:06<05:08,  4.20it/s]Loading transformer parameters to cpu:   3%|▎         | 38/1331 [00:08<06:55,  3.11it/s]Loading transformer parameters to cpu:   3%|▎         | 40/1331 [00:08<06:47,  3.17it/s]Loading transformer parameters to cpu:   3%|▎         | 42/1331 [00:09<06:36,  3.25it/s]Loading transformer parameters to cpu:   3%|▎         | 44/1331 [00:09<05:11,  4.13it/s]Loading transformer parameters to cpu:   3%|▎         | 45/1331 [00:09<05:45,  3.73it/s]Loading transformer parameters to cpu:   4%|▎         | 47/1331 [00:10<05:44,  3.72it/s]Loading transformer parameters to cpu:   4%|▎         | 49/1331 [00:10<05:34,  3.83it/s]Loading transformer parameters to cpu:   4%|▍         | 51/1331 [00:11<06:02,  3.53it/s]Loading transformer parameters to cpu:   4%|▍         | 57/1331 [00:12<03:47,  5.59it/s]Loading transformer parameters to cpu:   4%|▍         | 59/1331 [00:12<03:54,  5.42it/s]Loading transformer parameters to cpu:   5%|▍         | 61/1331 [00:13<04:02,  5.25it/s]Loading transformer parameters to cpu:   5%|▍         | 63/1331 [00:13<04:16,  4.94it/s]Loading transformer parameters to cpu:   5%|▌         | 67/1331 [00:14<05:13,  4.03it/s]Loading transformer parameters to cpu:   5%|▌         | 69/1331 [00:15<06:40,  3.15it/s]Loading transformer parameters to cpu:   5%|▌         | 71/1331 [00:16<06:20,  3.31it/s]Loading transformer parameters to cpu:   5%|▌         | 73/1331 [00:16<05:03,  4.14it/s]Loading transformer parameters to cpu:   6%|▌         | 74/1331 [00:16<05:53,  3.55it/s]Loading transformer parameters to cpu:   6%|▌         | 76/1331 [00:17<05:21,  3.91it/s]Loading transformer parameters to cpu:   6%|▌         | 77/1331 [00:17<04:46,  4.38it/s]Loading transformer parameters to cpu:   6%|▌         | 78/1331 [00:17<05:29,  3.81it/s]Loading transformer parameters to cpu:   6%|▌         | 80/1331 [00:18<05:11,  4.02it/s]Loading transformer parameters to cpu:   6%|▋         | 86/1331 [00:18<03:00,  6.90it/s]Loading transformer parameters to cpu:   7%|▋         | 88/1331 [00:19<03:26,  6.03it/s]Loading transformer parameters to cpu:   7%|▋         | 90/1331 [00:19<03:52,  5.33it/s]Loading transformer parameters to cpu:   7%|▋         | 92/1331 [00:20<04:10,  4.94it/s]Loading transformer parameters to cpu:   7%|▋         | 96/1331 [00:21<04:48,  4.29it/s]Loading transformer parameters to cpu:   7%|▋         | 98/1331 [00:22<06:22,  3.23it/s]Loading transformer parameters to cpu:   8%|▊         | 100/1331 [00:22<05:50,  3.51it/s]Loading transformer parameters to cpu:   8%|▊         | 103/1331 [00:23<05:07,  3.99it/s]Loading transformer parameters to cpu:   8%|▊         | 105/1331 [00:23<04:51,  4.21it/s]Loading transformer parameters to cpu:   8%|▊         | 107/1331 [00:24<04:51,  4.20it/s]Loading transformer parameters to cpu:   8%|▊         | 109/1331 [00:24<04:41,  4.34it/s]Loading transformer parameters to cpu:   9%|▊         | 115/1331 [00:25<03:04,  6.59it/s]Loading transformer parameters to cpu:   9%|▉         | 117/1331 [00:25<03:36,  5.61it/s]Loading transformer parameters to cpu:   9%|▉         | 119/1331 [00:26<03:47,  5.33it/s]Loading transformer parameters to cpu:   9%|▉         | 121/1331 [00:26<04:03,  4.97it/s]Loading transformer parameters to cpu:   9%|▉         | 125/1331 [00:27<04:42,  4.27it/s]Loading transformer parameters to cpu:  10%|▉         | 127/1331 [00:28<05:59,  3.35it/s]Loading transformer parameters to cpu:  10%|▉         | 128/1331 [00:29<05:33,  3.61it/s]Loading transformer parameters to cpu:  10%|▉         | 129/1331 [00:29<06:00,  3.34it/s]Loading transformer parameters to cpu:  10%|▉         | 131/1331 [00:29<04:23,  4.55it/s]Loading transformer parameters to cpu:  10%|▉         | 132/1331 [00:30<05:11,  3.85it/s]Loading transformer parameters to cpu:  10%|█         | 134/1331 [00:30<05:17,  3.77it/s]Loading transformer parameters to cpu:  10%|█         | 136/1331 [00:30<04:51,  4.10it/s]Loading transformer parameters to cpu:  10%|█         | 138/1331 [00:31<04:55,  4.04it/s]Loading transformer parameters to cpu:  11%|█         | 144/1331 [00:31<02:59,  6.62it/s]Loading transformer parameters to cpu:  11%|█         | 146/1331 [00:32<03:11,  6.20it/s]Loading transformer parameters to cpu:  11%|█         | 148/1331 [00:32<03:26,  5.72it/s]Loading transformer parameters to cpu:  11%|█▏        | 150/1331 [00:33<03:46,  5.21it/s]Loading transformer parameters to cpu:  12%|█▏        | 154/1331 [00:34<04:40,  4.20it/s]Loading transformer parameters to cpu:  12%|█▏        | 156/1331 [00:35<06:14,  3.14it/s]Loading transformer parameters to cpu:  12%|█▏        | 158/1331 [00:36<05:40,  3.45it/s]Loading transformer parameters to cpu:  12%|█▏        | 161/1331 [00:36<04:48,  4.05it/s]Loading transformer parameters to cpu:  12%|█▏        | 163/1331 [00:37<04:39,  4.18it/s]Loading transformer parameters to cpu:  12%|█▏        | 165/1331 [00:37<04:38,  4.19it/s]Loading transformer parameters to cpu:  13%|█▎        | 167/1331 [00:38<04:43,  4.11it/s]Loading transformer parameters to cpu:  13%|█▎        | 173/1331 [00:38<03:01,  6.39it/s]Loading transformer parameters to cpu:  13%|█▎        | 175/1331 [00:38<03:10,  6.07it/s]Loading transformer parameters to cpu:  13%|█▎        | 177/1331 [00:39<03:31,  5.46it/s]Loading transformer parameters to cpu:  13%|█▎        | 179/1331 [00:39<03:36,  5.33it/s]Loading transformer parameters to cpu:  14%|█▎        | 183/1331 [00:40<04:07,  4.64it/s]Loading transformer parameters to cpu:  14%|█▍        | 185/1331 [00:42<05:56,  3.22it/s]Loading transformer parameters to cpu:  14%|█▍        | 187/1331 [00:42<05:29,  3.47it/s]Loading transformer parameters to cpu:  14%|█▍        | 190/1331 [00:43<04:49,  3.94it/s]Loading transformer parameters to cpu:  14%|█▍        | 192/1331 [00:43<04:35,  4.13it/s]Loading transformer parameters to cpu:  15%|█▍        | 194/1331 [00:44<04:41,  4.04it/s]Loading transformer parameters to cpu:  15%|█▍        | 196/1331 [00:44<04:51,  3.89it/s]Loading transformer parameters to cpu:  15%|█▌        | 202/1331 [00:44<02:54,  6.46it/s]Loading transformer parameters to cpu:  15%|█▌        | 204/1331 [00:45<03:16,  5.72it/s]Loading transformer parameters to cpu:  15%|█▌        | 206/1331 [00:46<03:36,  5.20it/s]Loading transformer parameters to cpu:  16%|█▌        | 208/1331 [00:46<03:50,  4.88it/s]Loading transformer parameters to cpu:  16%|█▌        | 212/1331 [00:47<04:15,  4.37it/s]Loading transformer parameters to cpu:  16%|█▌        | 214/1331 [00:48<05:46,  3.23it/s]Loading transformer parameters to cpu:  16%|█▌        | 216/1331 [00:49<05:22,  3.46it/s]Loading transformer parameters to cpu:  16%|█▋        | 219/1331 [00:49<04:30,  4.12it/s]Loading transformer parameters to cpu:  17%|█▋        | 221/1331 [00:50<04:25,  4.18it/s]Loading transformer parameters to cpu:  17%|█▋        | 223/1331 [00:50<04:17,  4.30it/s]Loading transformer parameters to cpu:  17%|█▋        | 225/1331 [00:50<04:19,  4.27it/s]Loading transformer parameters to cpu:  17%|█▋        | 231/1331 [00:51<02:48,  6.53it/s]Loading transformer parameters to cpu:  18%|█▊        | 233/1331 [00:51<02:58,  6.14it/s]Loading transformer parameters to cpu:  18%|█▊        | 235/1331 [00:52<03:07,  5.84it/s]Loading transformer parameters to cpu:  18%|█▊        | 237/1331 [00:52<03:18,  5.50it/s]Loading transformer parameters to cpu:  18%|█▊        | 241/1331 [00:53<03:59,  4.55it/s]Loading transformer parameters to cpu:  18%|█▊        | 243/1331 [00:54<05:21,  3.38it/s]Loading transformer parameters to cpu:  18%|█▊        | 245/1331 [00:55<05:03,  3.57it/s]Loading transformer parameters to cpu:  19%|█▊        | 247/1331 [00:55<04:01,  4.49it/s]Loading transformer parameters to cpu:  29%|██▉       | 389/1331 [00:55<00:08, 113.13it/s]Loading transformer parameters to cpu: 100%|██████████| 1331/1331 [00:55<00:00, 23.90it/s]
+Loading LoRA: Wan21_CausVid_14B_T2V_lora_rank32 with strength: 0.6200000000000003
+Loading model and applying LoRA weights::   0%|          | 0/737 [00:00<?, ?it/s]Loading model and applying LoRA weights::  18%|█▊        | 131/737 [00:00<00:00, 936.61it/s]Loading model and applying LoRA weights::  31%|███       | 225/737 [00:08<00:24, 20.76it/s] Loading model and applying LoRA weights::  36%|███▌      | 265/737 [00:12<00:27, 17.25it/s]Loading model and applying LoRA weights::  39%|███▉      | 287/737 [00:14<00:28, 15.89it/s]Loading model and applying LoRA weights::  41%|████      | 301/737 [00:15<00:28, 15.28it/s]Loading model and applying LoRA weights::  42%|████▏     | 311/737 [00:16<00:29, 14.56it/s]Loading model and applying LoRA weights::  43%|████▎     | 318/737 [00:17<00:29, 14.20it/s]Loading model and applying LoRA weights::  44%|████▍     | 323/737 [00:17<00:29, 14.19it/s]Loading model and applying LoRA weights::  44%|████▍     | 327/737 [00:18<00:35, 11.49it/s]Loading model and applying LoRA weights::  45%|████▍     | 330/737 [00:18<00:34, 11.68it/s]Loading model and applying LoRA weights::  45%|████▌     | 333/737 [00:19<00:34, 11.83it/s]Loading model and applying LoRA weights::  45%|████▌     | 335/737 [00:19<00:35, 11.44it/s]Loading model and applying LoRA weights::  46%|████▌     | 338/737 [00:19<00:31, 12.70it/s]Loading model and applying LoRA weights::  46%|████▌     | 340/737 [00:19<00:35, 11.34it/s]Loading model and applying LoRA weights::  46%|████▋     | 342/737 [00:20<00:48,  8.15it/s]Loading model and applying LoRA weights::  47%|████▋     | 344/737 [00:20<00:47,  8.26it/s]Loading model and applying LoRA weights::  47%|████▋     | 347/737 [00:20<00:37, 10.33it/s]Loading model and applying LoRA weights::  47%|████▋     | 349/737 [00:20<00:39,  9.87it/s]Loading model and applying LoRA weights::  48%|████▊     | 351/737 [00:20<00:34, 11.06it/s]Loading model and applying LoRA weights::  48%|████▊     | 353/737 [00:21<00:31, 12.16it/s]Loading model and applying LoRA weights::  48%|████▊     | 355/737 [00:21<00:34, 11.00it/s]Loading model and applying LoRA weights::  48%|████▊     | 357/737 [00:21<00:41,  9.05it/s]Loading model and applying LoRA weights::  49%|████▊     | 359/737 [00:21<00:42,  8.94it/s]Loading model and applying LoRA weights::  49%|████▉     | 362/737 [00:21<00:32, 11.53it/s]Loading model and applying LoRA weights::  49%|████▉     | 364/737 [00:22<00:35, 10.46it/s]Loading model and applying LoRA weights::  50%|████▉     | 366/737 [00:22<00:31, 11.77it/s]Loading model and applying LoRA weights::  50%|████▉     | 368/737 [00:22<00:28, 13.04it/s]Loading model and applying LoRA weights::  50%|█████     | 370/737 [00:22<00:32, 11.47it/s]Loading model and applying LoRA weights::  50%|█████     | 372/737 [00:23<00:42,  8.57it/s]Loading model and applying LoRA weights::  51%|█████     | 374/737 [00:23<00:42,  8.48it/s]Loading model and applying LoRA weights::  51%|█████     | 377/737 [00:23<00:31, 11.45it/s]Loading model and applying LoRA weights::  51%|█████▏    | 379/737 [00:23<00:33, 10.61it/s]Loading model and applying LoRA weights::  52%|█████▏    | 381/737 [00:23<00:29, 11.97it/s]Loading model and applying LoRA weights::  52%|█████▏    | 383/737 [00:23<00:27, 13.09it/s]Loading model and applying LoRA weights::  52%|█████▏    | 385/737 [00:24<00:34, 10.34it/s]Loading model and applying LoRA weights::  53%|█████▎    | 387/737 [00:24<00:45,  7.68it/s]Loading model and applying LoRA weights::  53%|█████▎    | 389/737 [00:24<00:44,  7.75it/s]Loading model and applying LoRA weights::  53%|█████▎    | 392/737 [00:24<00:32, 10.48it/s]Loading model and applying LoRA weights::  53%|█████▎    | 394/737 [00:25<00:34,  9.89it/s]Loading model and applying LoRA weights::  54%|█████▎    | 396/737 [00:25<00:30, 11.08it/s]Loading model and applying LoRA weights::  54%|█████▍    | 398/737 [00:25<00:27, 12.42it/s]Loading model and applying LoRA weights::  54%|█████▍    | 400/737 [00:25<00:29, 11.24it/s]Loading model and applying LoRA weights::  55%|█████▍    | 402/737 [00:26<00:42,  7.82it/s]Loading model and applying LoRA weights::  55%|█████▍    | 404/737 [00:26<00:40,  8.15it/s]Loading model and applying LoRA weights::  55%|█████▌    | 407/737 [00:26<00:29, 11.15it/s]Loading model and applying LoRA weights::  55%|█████▌    | 409/737 [00:26<00:31, 10.47it/s]Loading model and applying LoRA weights::  56%|█████▌    | 411/737 [00:26<00:27, 11.94it/s]Loading model and applying LoRA weights::  56%|█████▌    | 413/737 [00:26<00:24, 13.23it/s]Loading model and applying LoRA weights::  56%|█████▋    | 415/737 [00:27<00:27, 11.76it/s]Loading model and applying LoRA weights::  57%|█████▋    | 417/737 [00:27<00:34,  9.18it/s]Loading model and applying LoRA weights::  57%|█████▋    | 419/737 [00:27<00:34,  9.26it/s]Loading model and applying LoRA weights::  57%|█████▋    | 422/737 [00:27<00:25, 12.33it/s]Loading model and applying LoRA weights::  58%|█████▊    | 424/737 [00:27<00:27, 11.36it/s]Loading model and applying LoRA weights::  58%|█████▊    | 426/737 [00:28<00:25, 12.28it/s]Loading model and applying LoRA weights::  58%|█████▊    | 428/737 [00:28<00:22, 13.59it/s]Loading model and applying LoRA weights::  58%|█████▊    | 430/737 [00:28<00:26, 11.53it/s]Loading model and applying LoRA weights::  59%|█████▊    | 432/737 [00:28<00:33,  9.11it/s]Loading model and applying LoRA weights::  59%|█████▉    | 434/737 [00:28<00:33,  9.11it/s]Loading model and applying LoRA weights::  59%|█████▉    | 437/737 [00:29<00:24, 12.05it/s]Loading model and applying LoRA weights::  60%|█████▉    | 439/737 [00:29<00:27, 10.77it/s]Loading model and applying LoRA weights::  60%|█████▉    | 441/737 [00:29<00:25, 11.76it/s]Loading model and applying LoRA weights::  60%|██████    | 443/737 [00:29<00:22, 12.95it/s]Loading model and applying LoRA weights::  60%|██████    | 445/737 [00:29<00:26, 11.23it/s]Loading model and applying LoRA weights::  61%|██████    | 447/737 [00:30<00:36,  8.03it/s]Loading model and applying LoRA weights::  61%|██████    | 449/737 [00:30<00:36,  7.99it/s]Loading model and applying LoRA weights::  61%|██████▏   | 452/737 [00:30<00:27, 10.52it/s]Loading model and applying LoRA weights::  62%|██████▏   | 454/737 [00:30<00:28, 10.08it/s]Loading model and applying LoRA weights::  62%|██████▏   | 456/737 [00:30<00:24, 11.55it/s]Loading model and applying LoRA weights::  62%|██████▏   | 458/737 [00:31<00:22, 12.53it/s]Loading model and applying LoRA weights::  62%|██████▏   | 460/737 [00:31<00:26, 10.30it/s]Loading model and applying LoRA weights::  63%|██████▎   | 462/737 [00:31<00:34,  8.02it/s]Loading model and applying LoRA weights::  63%|██████▎   | 464/737 [00:31<00:32,  8.28it/s]Loading model and applying LoRA weights::  63%|██████▎   | 467/737 [00:32<00:24, 11.24it/s]Loading model and applying LoRA weights::  64%|██████▎   | 469/737 [00:32<00:26, 10.28it/s]Loading model and applying LoRA weights::  64%|██████▍   | 471/737 [00:32<00:22, 11.57it/s]Loading model and applying LoRA weights::  64%|██████▍   | 473/737 [00:32<00:20, 12.59it/s]Loading model and applying LoRA weights::  64%|██████▍   | 475/737 [00:32<00:25, 10.44it/s]Loading model and applying LoRA weights::  65%|██████▍   | 477/737 [00:33<00:28,  9.06it/s]Loading model and applying LoRA weights::  65%|██████▍   | 479/737 [00:33<00:27,  9.55it/s]Loading model and applying LoRA weights::  65%|██████▌   | 482/737 [00:33<00:19, 12.84it/s]Loading model and applying LoRA weights::  66%|██████▌   | 484/737 [00:33<00:20, 12.18it/s]Loading model and applying LoRA weights::  66%|██████▌   | 488/737 [00:33<00:16, 15.07it/s]Loading model and applying LoRA weights::  66%|██████▋   | 490/737 [00:34<00:20, 12.07it/s]Loading model and applying LoRA weights::  67%|██████▋   | 492/737 [00:34<00:26,  9.34it/s]Loading model and applying LoRA weights::  67%|██████▋   | 494/737 [00:34<00:27,  8.96it/s]Loading model and applying LoRA weights::  67%|██████▋   | 497/737 [00:34<00:20, 11.61it/s]Loading model and applying LoRA weights::  68%|██████▊   | 499/737 [00:35<00:22, 10.68it/s]Loading model and applying LoRA weights::  68%|██████▊   | 501/737 [00:35<00:19, 11.95it/s]Loading model and applying LoRA weights::  68%|██████▊   | 503/737 [00:35<00:17, 13.14it/s]Loading model and applying LoRA weights::  69%|██████▊   | 505/737 [00:35<00:19, 11.77it/s]Loading model and applying LoRA weights::  69%|██████▉   | 507/737 [00:35<00:26,  8.77it/s]Loading model and applying LoRA weights::  69%|██████▉   | 509/737 [00:36<00:26,  8.56it/s]Loading model and applying LoRA weights::  69%|██████▉   | 512/737 [00:36<00:19, 11.38it/s]Loading model and applying LoRA weights::  70%|██████▉   | 514/737 [00:36<00:21, 10.21it/s]Loading model and applying LoRA weights::  70%|███████   | 516/737 [00:36<00:19, 11.46it/s]Loading model and applying LoRA weights::  70%|███████   | 518/737 [00:36<00:17, 12.46it/s]Loading model and applying LoRA weights::  71%|███████   | 520/737 [00:36<00:20, 10.70it/s]Loading model and applying LoRA weights::  71%|███████   | 522/737 [00:37<00:27,  7.93it/s]Loading model and applying LoRA weights::  71%|███████   | 524/737 [00:37<00:25,  8.40it/s]Loading model and applying LoRA weights::  72%|███████▏  | 528/737 [00:37<00:18, 11.15it/s]Loading model and applying LoRA weights::  72%|███████▏  | 530/737 [00:38<00:20, 10.32it/s]Loading model and applying LoRA weights::  72%|███████▏  | 533/737 [00:38<00:15, 13.09it/s]Loading model and applying LoRA weights::  73%|███████▎  | 535/737 [00:38<00:18, 11.18it/s]Loading model and applying LoRA weights::  73%|███████▎  | 537/737 [00:38<00:24,  8.33it/s]Loading model and applying LoRA weights::  73%|███████▎  | 539/737 [00:39<00:23,  8.53it/s]Loading model and applying LoRA weights::  74%|███████▎  | 542/737 [00:39<00:17, 11.28it/s]Loading model and applying LoRA weights::  74%|███████▍  | 544/737 [00:39<00:18, 10.33it/s]Loading model and applying LoRA weights::  74%|███████▍  | 546/737 [00:39<00:16, 11.68it/s]Loading model and applying LoRA weights::  74%|███████▍  | 548/737 [00:39<00:14, 12.65it/s]Loading model and applying LoRA weights::  75%|███████▍  | 550/737 [00:39<00:16, 11.27it/s]Loading model and applying LoRA weights::  75%|███████▍  | 552/737 [00:40<00:20,  8.97it/s]Loading model and applying LoRA weights::  75%|███████▌  | 554/737 [00:40<00:20,  8.80it/s]Loading model and applying LoRA weights::  76%|███████▌  | 557/737 [00:40<00:15, 11.68it/s]Loading model and applying LoRA weights::  76%|███████▌  | 559/737 [00:40<00:16, 10.73it/s]Loading model and applying LoRA weights::  76%|███████▌  | 561/737 [00:40<00:14, 12.02it/s]Loading model and applying LoRA weights::  76%|███████▋  | 563/737 [00:40<00:12, 13.43it/s]Loading model and applying LoRA weights::  77%|███████▋  | 565/737 [00:41<00:14, 11.54it/s]Loading model and applying LoRA weights::  77%|███████▋  | 567/737 [00:41<00:19,  8.66it/s]Loading model and applying LoRA weights::  77%|███████▋  | 569/737 [00:41<00:19,  8.62it/s]Loading model and applying LoRA weights::  78%|███████▊  | 572/737 [00:41<00:14, 11.41it/s]Loading model and applying LoRA weights::  78%|███████▊  | 574/737 [00:42<00:15, 10.33it/s]Loading model and applying LoRA weights::  78%|███████▊  | 576/737 [00:42<00:13, 11.58it/s]Loading model and applying LoRA weights::  78%|███████▊  | 578/737 [00:42<00:12, 12.82it/s]Loading model and applying LoRA weights::  79%|███████▊  | 580/737 [00:42<00:14, 10.55it/s]Loading model and applying LoRA weights::  79%|███████▉  | 582/737 [00:43<00:20,  7.50it/s]Loading model and applying LoRA weights::  79%|███████▉  | 584/737 [00:43<00:19,  7.76it/s]Loading model and applying LoRA weights::  80%|███████▉  | 587/737 [00:43<00:14, 10.69it/s]Loading model and applying LoRA weights::  80%|███████▉  | 589/737 [00:43<00:14, 10.43it/s]Loading model and applying LoRA weights::  80%|████████  | 591/737 [00:43<00:12, 11.49it/s]Loading model and applying LoRA weights::  80%|████████  | 593/737 [00:43<00:11, 12.69it/s]Loading model and applying LoRA weights::  81%|████████  | 595/737 [00:44<00:13, 10.38it/s]Loading model and applying LoRA weights::  81%|████████  | 597/737 [00:44<00:18,  7.61it/s]Loading model and applying LoRA weights::  81%|████████▏ | 599/737 [00:44<00:17,  7.75it/s]Loading model and applying LoRA weights::  82%|████████▏ | 602/737 [00:45<00:12, 10.70it/s]Loading model and applying LoRA weights::  82%|████████▏ | 604/737 [00:45<00:13, 10.08it/s]Loading model and applying LoRA weights::  82%|████████▏ | 606/737 [00:45<00:15,  8.43it/s]Loading model and applying LoRA weights::  82%|████████▏ | 608/737 [00:45<00:13,  9.83it/s]Loading model and applying LoRA weights::  83%|████████▎ | 610/737 [00:45<00:13,  9.61it/s]Loading model and applying LoRA weights::  83%|████████▎ | 612/737 [00:46<00:15,  8.00it/s]Loading model and applying LoRA weights::  83%|████████▎ | 613/737 [00:46<00:15,  8.20it/s]Loading model and applying LoRA weights::  83%|████████▎ | 614/737 [00:46<00:14,  8.44it/s]Loading model and applying LoRA weights::  84%|████████▎ | 617/737 [00:46<00:09, 12.39it/s]Loading model and applying LoRA weights::  84%|████████▍ | 619/737 [00:46<00:10, 10.89it/s]Loading model and applying LoRA weights::  84%|████████▍ | 621/737 [00:46<00:09, 12.46it/s]Loading model and applying LoRA weights::  85%|████████▍ | 623/737 [00:47<00:08, 13.75it/s]Loading model and applying LoRA weights::  85%|████████▍ | 625/737 [00:47<00:09, 11.57it/s]Loading model and applying LoRA weights::  85%|████████▌ | 627/737 [00:47<00:13,  8.28it/s]Loading model and applying LoRA weights::  85%|████████▌ | 629/737 [00:47<00:13,  8.27it/s]Loading model and applying LoRA weights::  86%|████████▌ | 632/737 [00:48<00:09, 11.16it/s]Loading model and applying LoRA weights::  86%|████████▌ | 634/737 [00:48<00:09, 10.33it/s]Loading model and applying LoRA weights::  86%|████████▋ | 636/737 [00:48<00:08, 11.56it/s]Loading model and applying LoRA weights::  87%|████████▋ | 638/737 [00:48<00:07, 12.79it/s]Loading model and applying LoRA weights::  87%|████████▋ | 640/737 [00:48<00:08, 10.85it/s]Loading model and applying LoRA weights::  87%|████████▋ | 642/737 [00:49<00:12,  7.88it/s]Loading model and applying LoRA weights::  87%|████████▋ | 644/737 [00:49<00:11,  8.06it/s]Loading model and applying LoRA weights::  88%|████████▊ | 647/737 [00:49<00:08, 10.66it/s]Loading model and applying LoRA weights::  88%|████████▊ | 649/737 [00:49<00:08,  9.81it/s]Loading model and applying LoRA weights::  88%|████████▊ | 651/737 [00:49<00:07, 11.07it/s]Loading model and applying LoRA weights::  89%|████████▊ | 653/737 [00:50<00:06, 12.30it/s]Loading model and applying LoRA weights::  89%|████████▉ | 655/737 [00:50<00:07, 10.40it/s]Loading model and applying LoRA weights::  89%|████████▉ | 657/737 [00:50<00:10,  7.71it/s]Loading model and applying LoRA weights::  89%|████████▉ | 659/737 [00:50<00:09,  7.83it/s]Loading model and applying LoRA weights::  90%|████████▉ | 662/737 [00:51<00:07, 10.63it/s]Loading model and applying LoRA weights::  90%|█████████ | 664/737 [00:51<00:07,  9.83it/s]Loading model and applying LoRA weights::  90%|█████████ | 666/737 [00:51<00:06, 10.96it/s]Loading model and applying LoRA weights::  91%|█████████ | 668/737 [00:51<00:05, 11.99it/s]Loading model and applying LoRA weights::  91%|█████████ | 670/737 [00:51<00:06, 10.23it/s]Loading model and applying LoRA weights::  91%|█████████ | 672/737 [00:52<00:07,  8.66it/s]Loading model and applying LoRA weights::  91%|█████████▏| 674/737 [00:52<00:07,  8.65it/s]Loading model and applying LoRA weights::  92%|█████████▏| 677/737 [00:52<00:05, 11.38it/s]Loading model and applying LoRA weights::  92%|█████████▏| 679/737 [00:52<00:05, 10.24it/s]Loading model and applying LoRA weights::  92%|█████████▏| 681/737 [00:52<00:04, 11.28it/s]Loading model and applying LoRA weights::  93%|█████████▎| 683/737 [00:53<00:04, 12.44it/s]Loading model and applying LoRA weights::  93%|█████████▎| 685/737 [00:53<00:04, 11.13it/s]Loading model and applying LoRA weights::  93%|█████████▎| 687/737 [00:53<00:05,  8.42it/s]Loading model and applying LoRA weights::  93%|█████████▎| 689/737 [00:53<00:05,  8.43it/s]Loading model and applying LoRA weights::  94%|█████████▍| 692/737 [00:54<00:04, 11.10it/s]Loading model and applying LoRA weights::  94%|█████████▍| 694/737 [00:54<00:04, 10.41it/s]Loading model and applying LoRA weights::  94%|█████████▍| 696/737 [00:54<00:03, 11.93it/s]Loading model and applying LoRA weights::  95%|█████████▍| 698/737 [00:54<00:03, 12.87it/s]Loading model and applying LoRA weights::  95%|█████████▍| 700/737 [00:54<00:03, 10.74it/s]Loading model and applying LoRA weights::  95%|█████████▌| 702/737 [00:55<00:04,  8.00it/s]Loading model and applying LoRA weights::  96%|█████████▌| 704/737 [00:55<00:04,  7.96it/s]Loading model and applying LoRA weights::  96%|█████████▌| 707/737 [00:55<00:02, 10.31it/s]Loading model and applying LoRA weights::  96%|█████████▌| 709/737 [00:55<00:02,  9.75it/s]Loading model and applying LoRA weights::  96%|█████████▋| 711/737 [00:55<00:02, 10.88it/s]Loading model and applying LoRA weights::  97%|█████████▋| 713/737 [00:56<00:02, 11.83it/s]Loading model and applying LoRA weights::  97%|█████████▋| 715/737 [00:56<00:02,  9.68it/s]Loading model and applying LoRA weights::  97%|█████████▋| 717/737 [00:56<00:02,  7.49it/s]Loading model and applying LoRA weights::  97%|█████████▋| 718/737 [00:56<00:02,  7.40it/s]Loading model and applying LoRA weights::  98%|█████████▊| 719/737 [00:57<00:02,  7.38it/s]Loading model and applying LoRA weights::  98%|█████████▊| 722/737 [00:57<00:01, 10.92it/s]Loading model and applying LoRA weights::  98%|█████████▊| 724/737 [00:57<00:01,  9.96it/s]Loading model and applying LoRA weights::  99%|█████████▊| 726/737 [00:57<00:00, 11.20it/s]Loading model and applying LoRA weights::  99%|█████████▉| 728/737 [00:57<00:00, 12.19it/s]Loading model and applying LoRA weights::  99%|█████████▉| 730/737 [00:57<00:00, 10.51it/s]Loading model and applying LoRA weights::  99%|█████████▉| 732/737 [00:58<00:00,  8.38it/s]Loading model and applying LoRA weights:: 100%|█████████▉| 734/737 [00:58<00:00,  8.47it/s]Loading model and applying LoRA weights:: 100%|██████████| 737/737 [00:58<00:00, 11.61it/s]Loading model and applying LoRA weights:: 100%|██████████| 737/737 [00:58<00:00, 12.58it/s]
+Moving video model to cpu
